@@ -14,8 +14,11 @@ public class MegaDashController : MonoBehaviour
 	private Vector3 direction;
 	private UnityEngine.Tilemaps.Tilemap map;
 
+	private PlayerData playerData;
+
 	void Start(){
 		this.map = GameObject.Find("Tilemap").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.playerData = Object.FindObjectOfType<PlayerData>();
 	}
 
 	void Update()
@@ -30,7 +33,7 @@ public class MegaDashController : MonoBehaviour
 		var tilePosition = grid.WorldToCell(newPosition);
 		var tile = map.GetTile(tilePosition);
 		if (tile == null) {
-			this.isDashing = false;
+			this.stopDash();
 			return;
 		}
 
@@ -43,8 +46,6 @@ public class MegaDashController : MonoBehaviour
 	}
 
 	public void dash(Vector3 dir){
-		Debug.Log("performing mega dash");
-		Debug.Log(dir);
 		if (this.isDashing || dir.magnitude < 1) {
 			return;
 		}
@@ -56,14 +57,18 @@ public class MegaDashController : MonoBehaviour
 		this.dashGust = Instantiate(this.dashGustPrefab, transform.position, rotation);
 
 		this.isDashing = true;
+
+		this.playerData.setMegaDashDirection(this.direction);
 	}
 
 	public void stopDash() {
 		this.isDashing = false;
+		this.direction = new Vector3(0,0,0);
+		Destroy(this.dashGust);
+		this.playerData.setMegaDashDirection(this.direction);
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
-		Debug.Log("COLLISION");
-		this.isDashing = false;
+		this.stopDash();
 	}
 }

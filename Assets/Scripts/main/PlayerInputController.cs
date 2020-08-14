@@ -6,12 +6,14 @@ using UnityEngine.InputSystem;
 public class PlayerInputController : MonoBehaviour
 {
 	public Vector3 moveDirection;
+	private Vector3 lastMoveDirection;
 	public Vector3 aimDirection;
 	public Vector3 swordDirection;
 
 	public bool action;
 	public bool dash;
 	public bool chargeDash;
+	public bool teleport;
 
 	private GameObject player;
 
@@ -26,7 +28,10 @@ public class PlayerInputController : MonoBehaviour
 		if (gamepad != null) {
 			Vector2 move = gamepad.leftStick.ReadValue();
 			this.moveDirection = new Vector3(move.x, move.y, 0.0f);
-			this.moveDirection.Normalize();
+			if (this.moveDirection.magnitude > 0) {
+				this.lastMoveDirection = this.moveDirection;
+			}
+			//this.moveDirection.Normalize();
 
 			Vector2 aim = gamepad.rightStick.ReadValue();
 			this.aimDirection = new Vector3(aim.x, aim.y, 0.0f);
@@ -34,9 +39,10 @@ public class PlayerInputController : MonoBehaviour
 
 			this.action = gamepad.buttonWest.wasPressedThisFrame;
 			this.dash = gamepad.buttonSouth.wasPressedThisFrame;
+			this.teleport = gamepad.buttonNorth.isPressed;
 			this.chargeDash = gamepad.leftTrigger.isPressed;
-			this.swordDirection = this.moveDirection;
-		}else {
+			this.swordDirection = this.lastMoveDirection;
+		} else {
 
 			Keyboard keyboard = Keyboard.current;
 

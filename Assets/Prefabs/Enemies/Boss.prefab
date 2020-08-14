@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 962908650}
   - component: {fileID: 962908645}
   - component: {fileID: 1597841954427450070}
+  - component: {fileID: 1004658332}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -55,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 20
   missile: {fileID: 5004119493199418610, guid: cc34df002d185ef4480daf25385892c1, type: 3}
-  nrOfProjectiles: 5
+  nrOfProjectiles: 7
 --- !u!50 &962908650
 Rigidbody2D:
   serializedVersion: 4
@@ -155,12 +156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a91d25e7fa65414e8499b7af68a6969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
-  currentHealth: 1000
+  maxHealth: 400
+  currentHealth: 400
   speed: 6
   missileDamage: 25
   targetEntity: {fileID: 0}
   missileController: {fileID: -3223664805908997874}
+  thunderController: {fileID: 0}
   castTime: 2
 --- !u!61 &1597841954427450070
 BoxCollider2D:
@@ -188,6 +190,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.91115665, y: 1.2135563}
   m_EdgeRadius: 0
+--- !u!114 &1004658332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060150731056497161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ca56e897ff5ba48b22aec4b97c94c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castAnimation: {fileID: 1992947864555212379, guid: 94b473fd8af681346b76dd4dcca44373,
+    type: 3}
+  executeAnimation: {fileID: 4583384263433001126, guid: 29c24c96bdef0474ca8ea7a6f52b4b6d,
+    type: 3}
+  damage: 50
+  nrOfStrikes: 15
+  spawnRadius: 5
+  damageRadius: 1
 --- !u!1001 &5060150732350470768
 PrefabInstance:
   m_ObjectHideFlags: 0

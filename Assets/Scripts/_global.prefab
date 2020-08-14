@@ -48,3 +48,4 @@ MonoBehaviour:
   swordDirection: {x: 0, y: 0, z: 0}
   action: 0
   dash: 0
+  chargeDash: 0

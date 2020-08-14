@@ -60,10 +60,10 @@ public class DashController : MonoBehaviour
 	}
 
 	public void dash(Vector3 dir){
-		if (this.isDashing || this.onCooldown || dir.magnitude < 1) {
+		if (this.isDashing || this.onCooldown) {
 			return;
 		}
-
+		dir.Normalize();
 		this.direction = dir;
 		this.targetDestination = transform.position + dir * this.distance;
 		this.distanceTraveled = 0f;

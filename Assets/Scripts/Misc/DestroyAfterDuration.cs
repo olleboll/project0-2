@@ -8,8 +8,12 @@ public class DestroyAfterDuration : MonoBehaviour
 	public float destroyAfter = 0.5f;
 	void Start()
 	{
-		StartCoroutine(pausEffect());
-		StartCoroutine(cleanUpEffect());
+		if (this.pauseAfter > 0) {
+			StartCoroutine(pausEffect());
+		}
+		if (this.destroyAfter > 0) {
+			StartCoroutine(cleanUpEffect());
+		}
 	}
 
 	IEnumerator pausEffect(){
