@@ -11,35 +11,30 @@ public class MegaDashController : MonoBehaviour
 
 	private Vector3 targetDestination;
 
-	private Vector3 direction;
-	private UnityEngine.Tilemaps.Tilemap map;
+	private Vector2 direction;
+	private Vector3 newPosition;
+	private UnityEngine.Tilemaps.Tilemap dashableTilemap;
+	private Rigidbody2D body;
 
 	private PlayerData playerData;
 
 	void Start(){
-		this.map = GameObject.Find("Tilemap").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.body = GetComponent<Rigidbody2D>();
+		this.dashableTilemap = GameObject.Find("collision_jumpable").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+
 		this.playerData = Object.FindObjectOfType<PlayerData>();
 	}
 
-	void Update()
-	{
+	void FixedUpdate(){
 		if (!this.isDashing) {
 			return;
 		}
+		Vector2 nextStep = this.direction * this.speed * Time.fixedDeltaTime;
 
-		Vector3 newPosition = transform.position + this.direction * this.speed * Time.deltaTime;
+		Vector2 newPosition = this.body.position + nextStep;
 
-		var grid = map.layoutGrid;
-		var tilePosition = grid.WorldToCell(newPosition);
-		var tile = map.GetTile(tilePosition);
-		if (tile == null) {
-			this.stopDash();
-			return;
-		}
-
-
-		transform.position = newPosition;
-
+		this.body.MovePosition(newPosition);
+		this.playerData.SetLastPlayerMovement(nextStep);
 		if (this.dashGust != null) {
 			this.dashGust.transform.position = newPosition;
 		}
@@ -49,8 +44,9 @@ public class MegaDashController : MonoBehaviour
 		if (this.isDashing || dir.magnitude < 1) {
 			return;
 		}
+		dir.Normalize();
 
-		this.direction = dir;
+		this.direction = new Vector2(dir.x, dir.y);
 
 		float angle = ( Mathf.Atan2( dir.y,  dir.x) - Mathf.PI/2 ) * Mathf.Rad2Deg;
 		Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);

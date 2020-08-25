@@ -269,6 +269,9 @@ TextureImporter:
   - first:
       213: -4048796276082660617
     second: snow_88
+  - first:
+      213: -7586089075949578342
+    second: snow_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -380,8 +383,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd26906a219e1e840800000000000000
-      internalID: 5251734906795025119
+      spriteID: a97dd81ad2cc8b690800000000000000
+      internalID: -7586089075949578342
       vertices: []
       indices: 
       edges: []

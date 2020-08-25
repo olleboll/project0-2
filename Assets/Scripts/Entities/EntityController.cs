@@ -9,9 +9,10 @@ public abstract class EntityController : MonoBehaviour
 
 	public virtual void takeDamage(int damage){
 		this.currentHealth -= damage;
-		Debug.Log("Taking damage");
-		Debug.Log(damage);
-		Debug.Log(gameObject);
+		if (this.currentHealth <= 0) {
+			Destroy(gameObject);
+			return;
+		}
 	}
 
 	void OnCollision2D(Collider2D col){

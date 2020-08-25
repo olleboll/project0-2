@@ -9,54 +9,53 @@ public class DashController : MonoBehaviour
 	public float cooldown = 1f;
 	public bool isDashing = false;
 	public GameObject dashGustPrefab;
+
+
 	private GameObject dashGust;
-
 	private Vector3 targetDestination;
-
 	private float distanceTraveled = 0f;
 	private bool onCooldown = false;
 
-	private Vector3 direction;
-	private UnityEngine.Tilemaps.Tilemap map;
+	private Vector2 direction;
+	private Vector3 newPosition;
+	private UnityEngine.Tilemaps.Tilemap dashableTilemap;
+	private UnityEngine.Tilemaps.Tilemap wallsTilemap;
+	private Rigidbody2D body;
+
+	private PlayerData playerData;
 
 	void Start(){
-		this.map = GameObject.Find("Tilemap").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.body = GetComponent<Rigidbody2D>();
+		this.dashableTilemap = GameObject.Find("collision_jumpable").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.wallsTilemap = GameObject.Find("collision_walls").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.playerData = Object.FindObjectOfType<PlayerData>();
 	}
 
-	void Update()
-	{
+
+	void FixedUpdate(){
 		if (!this.isDashing) {
 			return;
 		}
+		Vector2 nextStep = this.direction * this.speed * Time.fixedDeltaTime;
 
-		Vector3 newPosition;
-		Vector3 nextStep = this.direction * this.speed * Time.deltaTime;
+		Vector2 newPosition = this.body.position;
 
 		if (this.distanceTraveled + nextStep.magnitude >= this.distance) {
 			this.isDashing = false;
-			newPosition = transform.position;
 		} else {
-			newPosition = transform.position + nextStep;
+			newPosition = this.body.position + nextStep;
 			this.distanceTraveled += nextStep.magnitude;
+			this.playerData.SetLastPlayerMovement(nextStep);
 		}
 
-		var grid = map.layoutGrid;
-		var tilePosition = grid.WorldToCell(newPosition);
-		var tile = map.GetTile(tilePosition);
-		if (tile == null) {
-			this.isDashing = false;
-			return;
-		} else if (!this.isDashing && (tile.name == "Water" || tile.name == "AbyssGrass")) {
-			GetComponent<HealthPoints>().takeDamage(10000);
-			return;
-		}
-
-
-		transform.position = newPosition;
-
+		this.body.MovePosition(newPosition);
 		if (this.dashGust != null) {
 			this.dashGust.transform.position = newPosition;
 		}
+	}
+
+	private void stopDash(){
+		this.isDashing = false;
 	}
 
 	public void dash(Vector3 dir){
@@ -64,7 +63,7 @@ public class DashController : MonoBehaviour
 			return;
 		}
 		dir.Normalize();
-		this.direction = dir;
+		this.direction = new Vector2(dir.x, dir.y);
 		this.targetDestination = transform.position + dir * this.distance;
 		this.distanceTraveled = 0f;
 
@@ -77,13 +76,13 @@ public class DashController : MonoBehaviour
 		StartCoroutine(offCooldown());
 	}
 
-	void OnCollisionEnter2D(Collision2D col){
-		Debug.Log("COLLISION");
-		this.isDashing = false;
-	}
-
 	IEnumerator offCooldown(){
 		yield return new WaitForSeconds(this.cooldown);
 		this.onCooldown = false;
+	}
+
+	void OnDrawGizmosSelected()
+	{
+		Gizmos.DrawWireSphere(transform.position, this.distance);
 	}
 }

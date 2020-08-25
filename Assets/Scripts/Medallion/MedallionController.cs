@@ -10,10 +10,12 @@ public class MedallionController : MonoBehaviour
 	private SceneController sceneController;
 	private PlayerInputController input;
 	private PausController pausController;
+	private GameObject player;
 
 	private bool isTeleporting = false;
 	private bool isRenderingMedallion = false;
 	private string willSwapToWorld = "";
+	private string pickedWorld = "";
 
 	void Start()
 	{
@@ -23,7 +25,9 @@ public class MedallionController : MonoBehaviour
 		this.playerData = Object.FindObjectOfType<PlayerData>();
 		this.sceneController = Object.FindObjectOfType<SceneController>();
 		this.pausController = Object.FindObjectOfType<PausController>();
+		this.player = GameObject.Find("Player");
 
+		this.playerData.setTeleporting(this.isTeleporting);
 		dontRenderMedallion();
 	}
 
@@ -44,18 +48,39 @@ public class MedallionController : MonoBehaviour
 			} else if (this.isRenderingMedallion) {
 				dontRenderMedallion();
 			}
+		} else if (this.isRenderingMedallion && this.pickedWorld != this.sceneController.currentSceneName) {
+			this.playerData.SetUniversePosition(this.player.transform.position);
+			this.initializeSwap(this.pickedWorld);
 		} else if (this.isRenderingMedallion) {
 			dontRenderMedallion();
 		}
 	}
 
 	private void renderMedallion() {
-		Debug.Log("Should render medallion");
 		if (this.isRenderingMedallion) {
-			// Do some selection checking with gamepad?
-			// Or can unity do that for us?
+			// Keeping it simple for now. Only 4 choices. Up, down, left and right
+			// Like very simple, even hardcoded world names..... this will need a complete redo
+			Vector3 direction = this.input.moveDirection;
+			direction.Normalize();
+			string pickedWorld = this.sceneController.currentSceneName;
+			if (Mathf.Abs(direction.y) > Mathf.Abs(direction.x)) {
+				if (direction.y > 0) {
+					// up
+					pickedWorld = "abisko";
+				} else {
+					pickedWorld = "Brittania";
+				}
+			} else if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y)) {
+				if (direction.x > 0) {
+					// right
+					pickedWorld = "dev_objects";
+				} else {
+					pickedWorld = "Elyn";
+				}
+			}
+			this.pickedWorld = pickedWorld;
 		} else {
-			this.pausController.EnableSlowmotion(0.1f);
+			this.pausController.EnableSlowmotion(0.02f);
 			List<string> options = playerData.GetTeleportOptions();
 			for (int i = 0; i < options.Count; i++) {
 				Transform child = transform.Find("Worlds").Find(options[i]);
@@ -74,6 +99,7 @@ public class MedallionController : MonoBehaviour
 		this.willSwapToWorld = pickedWorld;
 		this.animator.SetTrigger("start");
 		this.isTeleporting = true;
+		this.playerData.setTeleporting(this.isTeleporting);
 		dontRenderMedallion();
 	}
 

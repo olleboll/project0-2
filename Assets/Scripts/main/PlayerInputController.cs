@@ -10,10 +10,11 @@ public class PlayerInputController : MonoBehaviour
 	public Vector3 aimDirection;
 	public Vector3 swordDirection;
 
-	public bool action;
+	public bool attack;
 	public bool dash;
 	public bool chargeDash;
 	public bool teleport;
+	public bool action;
 
 	private GameObject player;
 
@@ -37,10 +38,12 @@ public class PlayerInputController : MonoBehaviour
 			this.aimDirection = new Vector3(aim.x, aim.y, 0.0f);
 			this.aimDirection.Normalize();
 
-			this.action = gamepad.buttonWest.wasPressedThisFrame;
+			this.attack = gamepad.buttonWest.wasPressedThisFrame;
 			this.dash = gamepad.buttonSouth.wasPressedThisFrame;
-			this.teleport = gamepad.buttonNorth.isPressed;
+			this.teleport = gamepad.rightTrigger.isPressed;
+			this.action = gamepad.buttonEast.isPressed;
 			this.chargeDash = gamepad.leftTrigger.isPressed;
+
 			this.swordDirection = this.lastMoveDirection;
 		} else {
 
@@ -75,6 +78,8 @@ public class PlayerInputController : MonoBehaviour
 
 			this.action = Mouse.current.leftButton.wasPressedThisFrame;
 			this.dash = keyboard.spaceKey.isPressed;
+			this.teleport = keyboard.shiftKey.isPressed;
+			this.action = keyboard.eKey.isPressed;
 			this.swordDirection = this.aimDirection;
 		}
 	}

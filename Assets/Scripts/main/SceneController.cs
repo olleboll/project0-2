@@ -15,6 +15,8 @@ public class SceneController : MonoBehaviour
 		boss_1 = 1 << 1,
 		SampleScene = 1 << 2,
 		abisko = 1 << 3,
+		Elyn = 1 << 4,
+		Brittania = 1 << 5,
 		All = ~0,
 	}
 
@@ -24,6 +26,8 @@ public class SceneController : MonoBehaviour
 	private bool m_SceneIsLoading;
 	private string m_TargetScene;
 	private Scene m_OldScene;
+	private string m_currentScene;
+	private PlayerData playerData;
 
 	private Animator levelLoaderAnimation;
 
@@ -32,13 +36,19 @@ public class SceneController : MonoBehaviour
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
+	private void Start(){
+		this.playerData = GetComponent<PlayerData>();
+	}
+
 	public void SwapScene(string newScene, SceneLoadDelegate _sceneLoadDelegate=null, bool _reload=false){
 		if (!SceneCanBeLoaded(newScene, _reload)) {
 			return;
 		}
 
+		string scenePrefix = this.playerData.GetWorldLocationPrefix();
+
 		m_SceneIsLoading = true;
-		m_TargetScene = newScene;
+		m_TargetScene = scenePrefix + newScene;
 		m_SceneLoadDelegate = _sceneLoadDelegate;
 		m_OldScene  = SceneManager.GetActiveScene();
 		StartCoroutine("LoadScene");
@@ -59,14 +69,14 @@ public class SceneController : MonoBehaviour
 		}
 		m_SceneIsLoading = false;
 	}
-	private string currentSceeneName {
+	public string currentSceneName {
 		get {
 			return SceneManager.GetActiveScene().name;
 		}
 	}
 
 	private bool SceneCanBeLoaded(string _scene, bool _reload){
-		if (currentSceeneName == _scene) {
+		if (currentSceneName == _scene) {
 			Debug.Log("You are already on "+_scene+" scene");
 			return false;
 		} else if (m_SceneIsLoading) {

@@ -5,6 +5,7 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class FireLightController : MonoBehaviour
 {
+	public bool lit = true;
 	public float intenstiy = 0f;
 	public float range = 0f;
 	private float _intensity = 0f;
@@ -23,6 +24,8 @@ public class FireLightController : MonoBehaviour
 		this._intensity = this.intenstiy;
 		this.flickerBig = this.lightStartRadius + this.range;
 		this.flickerSmall = this.lightStartRadius - this.range;
+
+		this.light.enabled = this.lit;
 	}
 
 	void Update()
@@ -56,5 +59,14 @@ public class FireLightController : MonoBehaviour
 		} else {
 			this.intenstiy += 0.1f;
 		}
+	}
+
+	public void toggleLight(){
+		this.lit = !this.lit;
+		this.light.enabled = this.lit;
+	}
+	public void toggleLight(bool shouldbeOn){
+		this.lit = shouldbeOn;
+		this.light.enabled = this.lit;
 	}
 }

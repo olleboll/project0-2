@@ -21,10 +21,17 @@ public class SwordController : MonoBehaviour
 	{
 		this.anim = GetComponent<Animator>();
 		this.filter = new ContactFilter2D();
-		this.positionOffset = transform.position - transform.parent.position;
+		if (transform.parent != null) {
+			this.positionOffset = transform.position - transform.parent.position;
+		}
 	}
 
 	public void swing(Vector3 dir){
+
+		if (this.positionOffset == null) {
+			this.positionOffset = transform.position - transform.parent.position;
+		}
+
 		if (this.anim.GetBool("slashing")) {
 			return;
 		}
@@ -67,6 +74,9 @@ public class SwordController : MonoBehaviour
 				float angle = ( Mathf.Atan2( bloodDirection.y,  bloodDirection.x) + Mathf.PI/2 ) * Mathf.Rad2Deg;
 				Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 				GameObject blood = Instantiate(hitEffect, hit.transform.position, rotation);
+			} else if (hit.GetComponent<TriggerActionController>() != null) {
+				Debug.Log("*** SWROD HIT TRIGGER****");
+				hit.GetComponent<TriggerActionController>().triggerAction(transform.parent.gameObject, gameObject);
 			}
 		}
 	}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8219916132371736624}
   - component: {fileID: 8219916132371736590}
   - component: {fileID: 8219916132371736627}
+  - component: {fileID: 4888675437042359841}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -121,3 +122,19 @@ MonoBehaviour:
     type: 3}
   soundEffect: {fileID: 2551263655282601468, guid: 035f49668722ad44ebd60e130eb88b04,
     type: 3}
+--- !u!58 &4888675437042359841
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219916132371736588}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.7628994}
+  serializedVersion: 2
+  m_Radius: 0.6453152
