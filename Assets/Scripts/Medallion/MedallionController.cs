@@ -35,7 +35,7 @@ public class MedallionController : MonoBehaviour
 		// This should not be done on each update. Probably just trigger the UI
 		// to show if this.input.teleport is true and then do something else.
 		// Like different states here maybe?
-		if (this.isTeleporting) {
+		if (this.isTeleporting || !this.playerData.hasMedallion) {
 			return;
 		}
 		if (this.input.teleport) {

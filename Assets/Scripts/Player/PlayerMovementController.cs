@@ -237,6 +237,9 @@ public class PlayerMovementController : EntityController
 	}
 
 	public void onPortalAreaEntered(PortalArea.PortalData data) {
+		if (!this.playerData.hasMedallion) {
+			return;
+		}
 		if (data.entityName == this.name) {
 			this.medallionLight.color = data.color;
 			this.medallionLight.intensity = 0.5f;
@@ -244,6 +247,10 @@ public class PlayerMovementController : EntityController
 	}
 
 	public void onPortalAreaExited(string entityName) {
+		if (!this.playerData.hasMedallion) {
+			return;
+		}
+
 		if (entityName == this.name) {
 			this.medallionLight.color = this.defaultMedallionLightColor;
 			this.medallionLight.intensity = this.defaultMedallionLightIntensity;

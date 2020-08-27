@@ -44,6 +44,19 @@ public class PlayerData : MonoBehaviour
 		}
 	}
 
+	public bool hasAbility(Ability ability){
+		if (ability == Ability.dash) {
+			return this.hasDash;
+		}
+		if (ability == Ability.megaDash) {
+			return this.hasMegaDash;
+		}
+		if (ability == Ability.medallion) {
+			return this.hasMedallion;
+		}
+		return false;
+	}
+
 	public string GetWorldLocationPrefix(){
 		return this.worldLocationAsPrefix;
 	}
@@ -86,13 +99,6 @@ public class PlayerData : MonoBehaviour
 	// This could be messed up if two area overlap?
 	// Even if they are in different scenes maybe?
 	public void SetPlayerTeleportOptions(List<string> worlds){
-		Debug.Log("possible worlds");
-		Debug.Log(worlds.Count);
-		if (worlds.Count > 0) {
-			if (worlds[0] != null) {
-				Debug.Log(worlds[0]);
-			}
-		}
 		this.worldOptions = worlds;
 	}
 

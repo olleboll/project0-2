@@ -44,4 +44,5 @@ saker jag vet måste fixas.
 3. flytta object via knuff?
       - ha ett object som kan ageras på
       - när det ageras på måste vi ge den en rörelsevektor.
-      - alternativt ändra rigida bodyn? Finns risk för äckliga fysik buggar då. 
+      - alternativt ändra rigida bodyn? Finns risk för äckliga fysik buggar då.
+      - måste då också spara position på något fräsht sätt i vår dont destroy on load grej.

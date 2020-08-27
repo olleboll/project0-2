@@ -85,9 +85,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5834599a8c744b1685845b747724acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasMedallion: 1
-  hasDash: 1
-  hasMegaDash: 1
+  hasMedallion: 0
+  hasDash: 0
+  hasMegaDash: 0
   worldLocationAsPrefix: dungeon_1_
 --- !u!114 &-7378345660838549809
 MonoBehaviour:

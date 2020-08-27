@@ -7,16 +7,6 @@ public class TilemapHelper : MonoBehaviour
 {
 	public float width = 50;
 	public float height = 50;
-	void Start()
-	{
-		Debug.Log("Started in editor mode");
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
 
 	void OnDrawGizmosSelected()
 	{
