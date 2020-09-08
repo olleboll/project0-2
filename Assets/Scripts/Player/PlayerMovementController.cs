@@ -22,8 +22,7 @@ public class PlayerMovementController : EntityController
 	private MegaDashController megaDashController;
 	private SwordController swordController;
 	private Rigidbody2D body;
-	private UnityEngine.Tilemaps.Tilemap jumpableTilemap;
-	private UnityEngine.Tilemaps.Tilemap boundsMap;
+	private UnityEngine.Tilemaps.Tilemap groundTilemap;
 	private Light2D light;
 	private float lightStartRadius;
 
@@ -35,6 +34,7 @@ public class PlayerMovementController : EntityController
 	private SceneController sceneController;
 
 	private bool performMegaDashOnNextUpdate = false;
+	private bool isAiming = false;
 
 	private float cameraHalfWidth;
 	private float cameraHalfHeight;
@@ -52,8 +52,7 @@ public class PlayerMovementController : EntityController
 		this.megaDashController = GetComponent<MegaDashController>();
 		this.swordController = GetComponentInChildren<SwordController>();
 		this.walkingSound = GetComponent<AudioSource>();
-		this.jumpableTilemap = GameObject.Find("collision_jumpable").GetComponent<UnityEngine.Tilemaps.Tilemap>();
-		this.boundsMap = GameObject.Find("non_collision").GetComponent<UnityEngine.Tilemaps.Tilemap>();
+		this.groundTilemap = GameObject.Find("ground").GetComponent<UnityEngine.Tilemaps.Tilemap>();
 		this.light = transform.Find("light").GetComponent<Light2D>();
 		this.lightStartRadius = this.light.pointLightOuterRadius;
 
@@ -68,7 +67,7 @@ public class PlayerMovementController : EntityController
 		GameEvents.current.onPortalAreaExited += onPortalAreaExited;
 
 		Vector3 startPosition = this.playerData.GetLastUniversePosition();
-		if (startPosition.x > -999f) {
+		if (startPosition != this.playerData.defaultPlayerSpawn) {
 			transform.position = startPosition;
 			Camera.main.transform.position = new Vector3(startPosition.x, startPosition.y, -10);
 		}
@@ -77,8 +76,8 @@ public class PlayerMovementController : EntityController
 			this.performMegaDashOnNextUpdate = true;
 		}
 
-		this.maxTilemapBounds = this.boundsMap.localBounds.max;
-		this.minTilemapBounds = this.boundsMap.localBounds.min;
+		this.maxTilemapBounds = this.groundTilemap.localBounds.max;
+		this.minTilemapBounds = this.groundTilemap.localBounds.min;
 
 		this.cameraHalfHeight = Camera.main.orthographicSize;
 		this.cameraHalfWidth = this.cameraHalfHeight * Screen.width / Screen.height;
@@ -97,7 +96,7 @@ public class PlayerMovementController : EntityController
 			return;
 		}
 
-		if (!this.dashController.isDashing && !this.megaDashController.isDashing && !(this.chargeDashTimer > 0f)) {
+		if (!this.dashController.isDashing && !this.megaDashController.isDashing && !this.isAiming) {
 			this.handleMovement();
 		}
 
@@ -114,12 +113,12 @@ public class PlayerMovementController : EntityController
 
 	void FixedUpdate(){
 
-		if (this.playerData.getTeleporting()) {
+		if (this.playerData.getTeleporting() ) {
 			return;
 		}
 
 		// Let's only care about normal movements if we are not doing some other movement
-		if (!this.dashController.isDashing && !this.megaDashController.isDashing && !(this.chargeDashTimer > 0f)) {
+		if (!this.dashController.isDashing && !this.megaDashController.isDashing && !this.isAiming) {
 
 			float currentSpeed = this.moveDirection.magnitude;
 
@@ -128,25 +127,29 @@ public class PlayerMovementController : EntityController
 			float newX = this.body.position.x + newXMovement;
 			float newY = this.body.position.y + newYMovement;
 
-			var grid = this.jumpableTilemap.layoutGrid;
+			var grid = this.groundTilemap.layoutGrid;
 			var tilePositionX = grid.WorldToCell(new Vector3(newX, this.body.position.y, 0));
-			var tileX = this.jumpableTilemap.GetTile(tilePositionX);
+			var tileX = this.groundTilemap.GetTile(tilePositionX);
 
 			var tilePositionY = grid.WorldToCell(new Vector3(this.body.position.x, newY, 0));
-			var tileY = this.jumpableTilemap.GetTile(tilePositionY);
+			var tileY = this.groundTilemap.GetTile(tilePositionY);
 
-			if (tileX != null) {
+			if (tileX == null || StaticHelperFunctions.isNonGroundTile(tileX.name)) {
 				newX = this.body.position.x;
+				newXMovement = 0;
 			}
 
-			if (tileY != null) {
+			if (tileY == null || StaticHelperFunctions.isNonGroundTile(tileY.name)) {
 				newY = this.body.position.y;
+				newYMovement = 0;
 			}
 
 			Vector3 newPosition = new Vector3(newX, newY, 0);
 			this.body.MovePosition(newPosition);
 
-			this.playerData.SetLastPlayerMovement(newPosition);
+			this.playerData.SetLastPlayerMovement(new Vector3(newXMovement, newYMovement));
+		} else {
+			this.anim.SetFloat("speed", 0);
 		}
 
 
@@ -179,23 +182,25 @@ public class PlayerMovementController : EntityController
 	private float chargeDashTimer = 0f;
 	private void handleMegaDash(){
 
-		if (this.performMegaDashOnNextUpdate) {
-			this.megaDashController.dash(this.playerData.getMegaDashDirection());
-			this.performMegaDashOnNextUpdate = false;
-		}
+		// Reimplement this
 
-		if (chargeDashTimer >= 1f && !this.input.chargeDash) {
-			this.chargeDashTimer = 0f;
-			this.megaDashController.dash(this.input.aimDirection);
-		} else if (chargeDashTimer < 1f && this.input.chargeDash) {
-			this.chargeDashTimer += 1 * Time.deltaTime;
-		} else if (!this.input.chargeDash) {
-			this.chargeDashTimer = 0f;
-		}
-
-		if (this.megaDashController.isDashing && this.input.dash) {
-			this.megaDashController.stopDash();
-		}
+		// if (this.performMegaDashOnNextUpdate) {
+		// 	this.megaDashController.dash(this.playerData.getMegaDashDirection());
+		// 	this.performMegaDashOnNextUpdate = false;
+		// }
+		//
+		// if (chargeDashTimer >= 1f && !this.input.chargeDash) {
+		// 	this.chargeDashTimer = 0f;
+		// 	this.megaDashController.dash(this.input.aimDirection);
+		// } else if (chargeDashTimer < 1f && this.input.chargeDash) {
+		// 	this.chargeDashTimer += 1 * Time.deltaTime;
+		// } else if (!this.input.chargeDash) {
+		// 	this.chargeDashTimer = 0f;
+		// }
+		//
+		// if (this.megaDashController.isDashing && this.input.dash) {
+		// 	this.megaDashController.stopDash();
+		// }
 	}
 
 	private void handleDash(){
@@ -211,12 +216,16 @@ public class PlayerMovementController : EntityController
 
 	private void handleSword(){
 		bool swing = this.input.attack;
-
+		this.isAiming = false;
 		if (swing && this.swordController != null && !this.swordController.isSwinging()) {
 			this.swordController.swing(this.input.swordDirection);
 			this.speed += this.attackDashSpeed;
 		} else if (this.swordController.isSwinging()) {
 			// Do nothing here?
+		} else if (this.input.aimThrow) {
+			this.isAiming = true;
+		} else if (this.input.rangedAttack) {
+			this.swordController.throwSword(this.input.swordDirection);
 		} else {
 			this.speed = this.defaultSpeed;
 		}
@@ -260,5 +269,12 @@ public class PlayerMovementController : EntityController
 	void OnDestroy(){
 		GameEvents.current.onPortalAreaEntered -= onPortalAreaEntered;
 		GameEvents.current.onPortalAreaExited -= onPortalAreaExited;
+	}
+
+	public Vector3 getMoveDirection(){
+		return this.moveDirection;
+	}
+	public float getSpeed(){
+		return this.speed;
 	}
 }

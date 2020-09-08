@@ -12,9 +12,10 @@ public class PlayerInputController : MonoBehaviour
 
 	public bool attack;
 	public bool dash;
-	public bool chargeDash;
+	public bool aimThrow;
 	public bool teleport;
 	public bool action;
+	public bool rangedAttack;
 
 	private GameObject player;
 
@@ -42,7 +43,15 @@ public class PlayerInputController : MonoBehaviour
 			this.dash = gamepad.buttonSouth.wasPressedThisFrame;
 			this.teleport = gamepad.rightTrigger.isPressed;
 			this.action = gamepad.buttonEast.isPressed;
-			this.chargeDash = gamepad.leftTrigger.isPressed;
+			this.aimThrow = gamepad.leftTrigger.isPressed;
+
+			if (this.aimThrow && this.attack) {
+				this.rangedAttack = true;
+				this.attack = false;
+				this.aimThrow = false;
+			} else {
+				this.rangedAttack = false;
+			}
 
 			this.swordDirection = this.lastMoveDirection;
 		} else {

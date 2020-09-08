@@ -18,9 +18,14 @@ public class PlayerData : MonoBehaviour
 	public bool hasDash = false;
 	public bool hasMegaDash = false;
 
-	public string worldLocationAsPrefix = "dungeon_1_";
+	// This is bad.
+	// This cannot be hardcoded.
+	// I guess some scenes may change this?
+	// It needs to be under pretty strict control though.
+	public string worldLocationAsPrefix = "prologue_";
 
-	private Vector3 lastUniversePosition = new Vector3(-1000, 0, 0);
+	public Vector3 defaultPlayerSpawn = new Vector3(-1000, -1000, -1000);
+	private Vector3 lastUniversePosition;
 	private List<string> worldOptions = new List<string>();
 
 	private Vector3 megaDashDirection;
@@ -28,6 +33,7 @@ public class PlayerData : MonoBehaviour
 	private Vector3 lastPlayerMovement = Vector3.zero;
 
 	void Start(){
+		lastUniversePosition = this.defaultPlayerSpawn;
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
@@ -92,6 +98,7 @@ public class PlayerData : MonoBehaviour
 	public void setTeleporting(bool isTeleporting){
 		this.isTeleporting = isTeleporting;
 	}
+
 	public bool getTeleporting(){
 		return this.isTeleporting;
 	}

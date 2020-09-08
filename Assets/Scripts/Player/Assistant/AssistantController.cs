@@ -34,14 +34,13 @@ public class AssistantController : MonoBehaviour
 	void Update()
 	{
 		if (this.state == "follow") {
-			this.followTarget();
+			this.followMaster();
 		}
-
 		// negate playermovements
-		transform.position -= this.playerData.GetLastPlayerMovement();
+		transform.position -= this.playerData.GetLastPlayerMovement() / Time.fixedDeltaTime * Time.deltaTime;
 	}
 
-	private void followTarget(){
+	private void followMaster(){
 
 		Vector3 vectorToTarget = this.assistantTo.transform.position - transform.position;
 
@@ -49,7 +48,7 @@ public class AssistantController : MonoBehaviour
 			// LERP setup
 			Vector3 currentPosition = transform.position;
 			Vector3 target = this.assistantTo.transform.position;
-			float interpolation = this.speed * Time.deltaTime;
+			float interpolation = this.speed * Time.deltaTime * Random.value * 2;
 			transform.position = StaticHelperFunctions.getLerpedPosition(currentPosition, target, interpolation);
 			vectorToTarget.Normalize();
 			this.anim.SetFloat("dirX", vectorToTarget.x);

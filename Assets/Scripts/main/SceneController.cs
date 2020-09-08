@@ -20,6 +20,9 @@ public class SceneController : MonoBehaviour
 		All = ~0,
 	}
 
+	// LocalScene are scenes that are swapped automatically
+	// because of position. Like going into a house, or dungeon etc.
+
 	public delegate void SceneLoadDelegate(string _scene);
 
 	private SceneLoadDelegate m_SceneLoadDelegate;
@@ -37,7 +40,18 @@ public class SceneController : MonoBehaviour
 	}
 
 	private void Start(){
+		Debug.Log("Scene controller is running start!");
 		this.playerData = GetComponent<PlayerData>();
+
+		Debug.Log(SceneManager.GetActiveScene().name);
+		string currentSceneName = SceneManager.GetActiveScene().name;
+		string scenePrefix = this.playerData.GetWorldLocationPrefix();
+
+		if (!currentSceneName.ToLower().Contains(scenePrefix)) {
+			char[] seperator = {'_'};
+			string[] prefix = currentSceneName.Split(seperator);
+			this.playerData.SetWorldLocationPrefix(prefix[0]+"_");
+		}
 	}
 
 	public void SwapScene(string newScene, SceneLoadDelegate _sceneLoadDelegate=null, bool _reload=false){

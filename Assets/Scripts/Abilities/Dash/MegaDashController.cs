@@ -13,15 +13,12 @@ public class MegaDashController : MonoBehaviour
 
 	private Vector2 direction;
 	private Vector3 newPosition;
-	private UnityEngine.Tilemaps.Tilemap dashableTilemap;
 	private Rigidbody2D body;
 
 	private PlayerData playerData;
 
 	void Start(){
 		this.body = GetComponent<Rigidbody2D>();
-		this.dashableTilemap = GameObject.Find("collision_jumpable").GetComponent<UnityEngine.Tilemaps.Tilemap>();
-
 		this.playerData = Object.FindObjectOfType<PlayerData>();
 	}
 

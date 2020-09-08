@@ -53,7 +53,6 @@ public class ProjectileController : MonoBehaviour
 		if (hitEffect != null) {
 			Instantiate(hitEffect, transform.position, Quaternion.identity);
 		}
-
 	}
 
 	public void destroy(float delay){

@@ -29,7 +29,6 @@ public class Puzzle1Controller : MonoBehaviour
 		}
 	}
 
-	// Update is called once per frame
 	void Update()
 	{
 		if (this.solved) {
@@ -57,4 +56,5 @@ public class Puzzle1Controller : MonoBehaviour
 		data.solved = true;
 		this.dungeonData.SetPuzzle1Data(data);
 	}
+
 }
