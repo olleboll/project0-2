@@ -9,11 +9,13 @@ public class TorchController : ActionController
 
 	void Start()
 	{
-		this.light = transform.parent.Find("fire_light").GetComponent<FireLightController>();
+		this.light = GetComponent<FireLightController>();
 	}
 
 	public override void furtherActions(){
 		Debug.Log("Toggling light");
-		this.light.toggleLight();
+		Debug.Log(this.isRunningActionAnimation);
+		Debug.Log(this.light);
+		this.light.toggleLight(!this.isRunningActionAnimation);
 	}
 }

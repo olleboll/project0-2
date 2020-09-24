@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: -2532905587493532644}
   - component: {fileID: -3462531048074608844}
   - component: {fileID: -5431900566688947057}
+  - component: {fileID: -8022663849098238579}
+  - component: {fileID: 2558090279109760780}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -86,10 +88,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5834599a8c744b1685845b747724acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasMedallion: 1
+  hasSickle: 0
+  hasMedallion: 0
   hasDash: 1
   hasMegaDash: 0
-  worldLocationAsPrefix: dungeon_1_
+  worldLocationAsPrefix: prologue_
+  defaultPlayerSpawn: {x: -1000, y: -1000, z: -1000}
 --- !u!114 &-7378345660838549809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,9 +111,11 @@ MonoBehaviour:
   swordDirection: {x: 0, y: 0, z: 0}
   attack: 0
   dash: 0
-  chargeDash: 0
+  aimThrow: 0
   teleport: 0
   action: 0
+  actionNow: 0
+  rangedAttack: 0
 --- !u!114 &-2532905587493532644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,5 +150,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0737dfc68d011c478f59c8d4b670d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8022663849098238579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4914400399577119378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0abff2a91f470745a41b5af134470cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2558090279109760780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4914400399577119378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5ce98564516624ea8b25225ebd55bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

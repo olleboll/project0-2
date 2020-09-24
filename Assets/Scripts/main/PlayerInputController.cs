@@ -15,6 +15,7 @@ public class PlayerInputController : MonoBehaviour
 	public bool aimThrow;
 	public bool teleport;
 	public bool action;
+	public bool actionNow;
 	public bool rangedAttack;
 
 	private GameObject player;
@@ -43,6 +44,7 @@ public class PlayerInputController : MonoBehaviour
 			this.dash = gamepad.buttonSouth.wasPressedThisFrame;
 			this.teleport = gamepad.rightTrigger.isPressed;
 			this.action = gamepad.buttonEast.isPressed;
+			this.actionNow = gamepad.buttonEast.wasPressedThisFrame;
 			this.aimThrow = gamepad.leftTrigger.isPressed;
 
 			if (this.aimThrow && this.attack) {

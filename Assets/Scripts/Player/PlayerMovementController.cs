@@ -41,6 +41,8 @@ public class PlayerMovementController : EntityController
 	private Vector2 maxTilemapBounds;
 	private Vector2 minTilemapBounds;
 
+	private PrologueScene sceneData;
+
 	void Start()
 	{
 		this.defaultSpeed = this.speed;
@@ -55,6 +57,19 @@ public class PlayerMovementController : EntityController
 		this.groundTilemap = GameObject.Find("ground").GetComponent<UnityEngine.Tilemaps.Tilemap>();
 		this.light = transform.Find("light").GetComponent<Light2D>();
 		this.lightStartRadius = this.light.pointLightOuterRadius;
+
+		if (GameObject.Find("Prologue") != null) {
+			this.sceneData = GameObject.Find("Prologue").GetComponent<PrologueScene>();
+
+			if (this.sceneData.nightOrDay == "night") {
+				this.light.intensity = 0.6f;
+			} else {
+				this.light.intensity = 0f;
+			}
+
+		} else {
+			this.light.intensity = 0f;
+		}
 
 		this.medallionLight = transform.Find("MedallionLight").GetComponent<Light2D>();
 		this.defaultMedallionLightColor = this.medallionLight.color;
@@ -106,8 +121,9 @@ public class PlayerMovementController : EntityController
 		if (this.playerData.hasMegaDash) {
 			this.handleMegaDash();
 		}
-
-		this.handleSword();
+		if (this.playerData.hasSickle) {
+			this.handleSword();
+		}
 
 	}
 
@@ -133,13 +149,18 @@ public class PlayerMovementController : EntityController
 
 			var tilePositionY = grid.WorldToCell(new Vector3(this.body.position.x, newY, 0));
 			var tileY = this.groundTilemap.GetTile(tilePositionY);
-
-			if (tileX == null || StaticHelperFunctions.isNonGroundTile(tileX.name)) {
+			// Make an outOfBounds function in statis helper functions
+			if (tileX == null ||
+			    StaticHelperFunctions.isNonGroundTile(tileX.name) ||
+			    newX < (this.minTilemapBounds.x + 1.2) ||
+			    newX > (this.maxTilemapBounds.x - 2)) {
 				newX = this.body.position.x;
 				newXMovement = 0;
 			}
 
-			if (tileY == null || StaticHelperFunctions.isNonGroundTile(tileY.name)) {
+			if (tileY == null || StaticHelperFunctions.isNonGroundTile(tileY.name) ||
+			    newY < (this.minTilemapBounds.y + 1) ||
+			    newY > (this.maxTilemapBounds.y - 3.5)) {
 				newY = this.body.position.y;
 				newYMovement = 0;
 			}
@@ -238,8 +259,8 @@ public class PlayerMovementController : EntityController
 
 		Vector3 newCameraPosition = StaticHelperFunctions.getLerpedPosition(currentPosition, target, interpolation);
 
-		newCameraPosition.x = Mathf.Clamp(newCameraPosition.x, this.minTilemapBounds.x + this.cameraHalfWidth, this.maxTilemapBounds.x - this.cameraHalfWidth);
-		newCameraPosition.y = Mathf.Clamp(newCameraPosition.y, this.minTilemapBounds.y + this.cameraHalfHeight, this.maxTilemapBounds.y - this.cameraHalfHeight);
+		newCameraPosition.x = Mathf.Clamp(newCameraPosition.x, this.minTilemapBounds.x + this.cameraHalfWidth + 1, this.maxTilemapBounds.x - this.cameraHalfWidth - 2);
+		newCameraPosition.y = Mathf.Clamp(newCameraPosition.y, this.minTilemapBounds.y + this.cameraHalfHeight + 1, this.maxTilemapBounds.y - this.cameraHalfHeight - 2);
 		newCameraPosition.z = -10;
 
 		Camera.main.transform.position = newCameraPosition;

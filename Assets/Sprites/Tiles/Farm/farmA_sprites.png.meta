@@ -1,0 +1,7424 @@
+fileFormatVersion: 2
+guid: ae66f94c2d538e6468de295b0fedb49d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1442068900958703718
+    second: tileB_farmA_0
+  - first:
+      213: -6304345484204318536
+    second: tileB_farmA_1
+  - first:
+      213: 4075499221305654536
+    second: tileB_farmA_2
+  - first:
+      213: -473439069091127333
+    second: tileB_farmA_3
+  - first:
+      213: -1362015058728747728
+    second: tileB_farmA_4
+  - first:
+      213: -2952563609976164315
+    second: tileB_farmA_5
+  - first:
+      213: 4535541414202082500
+    second: tileB_farmA_6
+  - first:
+      213: 143342396745823172
+    second: tileB_farmA_7
+  - first:
+      213: -3572277829782419862
+    second: tileB_farmA_8
+  - first:
+      213: 3318510028039333997
+    second: tileB_farmA_9
+  - first:
+      213: 5894132218314362253
+    second: tileB_farmA_10
+  - first:
+      213: 2625932497087143310
+    second: tileB_farmA_11
+  - first:
+      213: -671620285584373966
+    second: tileB_farmA_12
+  - first:
+      213: 2185386945513678011
+    second: tileB_farmA_13
+  - first:
+      213: -3426301597777236538
+    second: tileB_farmA_14
+  - first:
+      213: 3067371265457167184
+    second: tileB_farmA_15
+  - first:
+      213: -1960930036754143547
+    second: tileB_farmA_16
+  - first:
+      213: 3465895008310729179
+    second: tileB_farmA_17
+  - first:
+      213: -8688247361242534296
+    second: tileB_farmA_18
+  - first:
+      213: 8732535829485962393
+    second: tileB_farmA_19
+  - first:
+      213: -8183667177415647466
+    second: tileB_farmA_20
+  - first:
+      213: 5506859134827644162
+    second: tileB_farmA_21
+  - first:
+      213: 2085792662961178143
+    second: tileB_farmA_22
+  - first:
+      213: 4565673380007162319
+    second: tileB_farmA_23
+  - first:
+      213: 4642820634839462435
+    second: tileB_farmA_24
+  - first:
+      213: 2331655291794439342
+    second: tileB_farmA_25
+  - first:
+      213: 4808141295722282971
+    second: tileB_farmA_26
+  - first:
+      213: 6783082346467255780
+    second: tileB_farmA_27
+  - first:
+      213: -7288633125103067803
+    second: tileB_farmA_28
+  - first:
+      213: -7341004457932032436
+    second: tileB_farmA_29
+  - first:
+      213: -3411571546355180339
+    second: tileB_farmA_30
+  - first:
+      213: 2540722434362718684
+    second: tileB_farmA_31
+  - first:
+      213: 1486894591424106778
+    second: tileB_farmA_32
+  - first:
+      213: -3716677866210963764
+    second: tileB_farmA_33
+  - first:
+      213: -4344526415653903272
+    second: tileB_farmA_34
+  - first:
+      213: -6502879071763298857
+    second: tileB_farmA_35
+  - first:
+      213: -7999180262083606307
+    second: tileB_farmA_36
+  - first:
+      213: -8388630166408223134
+    second: tileB_farmA_37
+  - first:
+      213: -3618854929384584280
+    second: tileB_farmA_38
+  - first:
+      213: -7369377338085852287
+    second: tileB_farmA_39
+  - first:
+      213: -5705392862641211288
+    second: tileB_farmA_40
+  - first:
+      213: 5807298679093246527
+    second: tileB_farmA_41
+  - first:
+      213: 8024188025748684686
+    second: tileB_farmA_42
+  - first:
+      213: -787010133911222392
+    second: tileB_farmA_43
+  - first:
+      213: -728864280838490393
+    second: tileB_farmA_44
+  - first:
+      213: -4438130150953799643
+    second: tileB_farmA_45
+  - first:
+      213: 6038216675862823182
+    second: tileB_farmA_46
+  - first:
+      213: -6822944993527135661
+    second: tileB_farmA_47
+  - first:
+      213: -7235129339454886543
+    second: tileB_farmA_48
+  - first:
+      213: 612355549930041432
+    second: tileB_farmA_49
+  - first:
+      213: 1473228167528158143
+    second: tileB_farmA_50
+  - first:
+      213: 9051091346474151656
+    second: tileB_farmA_51
+  - first:
+      213: -3397830488733389896
+    second: tileB_farmA_52
+  - first:
+      213: -4506541391834683720
+    second: tileB_farmA_53
+  - first:
+      213: 5507347181327795071
+    second: tileB_farmA_54
+  - first:
+      213: 1393768527178548091
+    second: tileB_farmA_55
+  - first:
+      213: -4922957549129346556
+    second: tileB_farmA_56
+  - first:
+      213: -1471861848046829701
+    second: tileB_farmA_57
+  - first:
+      213: -3342032632336313766
+    second: tileB_farmA_58
+  - first:
+      213: 5480908473684700106
+    second: tileB_farmA_59
+  - first:
+      213: -6853976593936970223
+    second: tileB_farmA_60
+  - first:
+      213: -2585599799048592147
+    second: tileB_farmA_61
+  - first:
+      213: -6587222382048126980
+    second: tileB_farmA_62
+  - first:
+      213: 8043088509350902311
+    second: tileB_farmA_63
+  - first:
+      213: 290761698581813306
+    second: tileB_farmA_64
+  - first:
+      213: 1217347744070223119
+    second: tileB_farmA_65
+  - first:
+      213: -6999479988993796269
+    second: tileB_farmA_66
+  - first:
+      213: -2727127602494876710
+    second: tileB_farmA_67
+  - first:
+      213: 3857085769391720007
+    second: tileB_farmA_68
+  - first:
+      213: 1262323056496907068
+    second: tileB_farmA_69
+  - first:
+      213: 6579755663184424275
+    second: tileB_farmA_70
+  - first:
+      213: 4845674377874617949
+    second: tileB_farmA_71
+  - first:
+      213: -1100643951601714761
+    second: tileB_farmA_72
+  - first:
+      213: 8993511250611950290
+    second: tileB_farmA_73
+  - first:
+      213: 3314724127708310921
+    second: tileB_farmA_74
+  - first:
+      213: 1906161640383220305
+    second: tileB_farmA_75
+  - first:
+      213: 9103580524638634278
+    second: tileB_farmA_76
+  - first:
+      213: -7966093079299894570
+    second: tileB_farmA_77
+  - first:
+      213: 2290610545742767319
+    second: tileB_farmA_78
+  - first:
+      213: 6171266077103560959
+    second: tileB_farmA_79
+  - first:
+      213: -3178580203669083632
+    second: tileB_farmA_80
+  - first:
+      213: 4464642504840713966
+    second: tileB_farmA_81
+  - first:
+      213: 3196618029888643232
+    second: tileB_farmA_82
+  - first:
+      213: -3269300918350043744
+    second: tileB_farmA_83
+  - first:
+      213: 8555083232352369326
+    second: tileB_farmA_84
+  - first:
+      213: -3787047291959941617
+    second: tileB_farmA_85
+  - first:
+      213: -360602381540527835
+    second: tileB_farmA_86
+  - first:
+      213: -4575469446408615591
+    second: tileB_farmA_87
+  - first:
+      213: -119024411504393651
+    second: tileB_farmA_88
+  - first:
+      213: -8375335437044127052
+    second: tileB_farmA_89
+  - first:
+      213: -1772419537419439068
+    second: tileB_farmA_90
+  - first:
+      213: 4428319452669831618
+    second: tileB_farmA_91
+  - first:
+      213: -7038843871484654403
+    second: tileB_farmA_92
+  - first:
+      213: -5398142725650151316
+    second: tileB_farmA_93
+  - first:
+      213: 1400522601984018932
+    second: tileB_farmA_94
+  - first:
+      213: -4256860545342554706
+    second: tileB_farmA_95
+  - first:
+      213: 5054107934241781596
+    second: tileB_farmA_96
+  - first:
+      213: -3514745438273934936
+    second: tileB_farmA_97
+  - first:
+      213: 281459590122866122
+    second: tileB_farmA_98
+  - first:
+      213: 6286192046824266588
+    second: tileB_farmA_99
+  - first:
+      213: -354089343496301197
+    second: tileB_farmA_100
+  - first:
+      213: -5018190308822357185
+    second: tileB_farmA_101
+  - first:
+      213: 3468708135607287732
+    second: tileB_farmA_102
+  - first:
+      213: -2717431491851253258
+    second: tileB_farmA_103
+  - first:
+      213: 6017014787177931412
+    second: tileB_farmA_104
+  - first:
+      213: 1906146571109496857
+    second: tileB_farmA_105
+  - first:
+      213: 1589271648136011987
+    second: tileB_farmA_106
+  - first:
+      213: -9128801554977259553
+    second: tileB_farmA_107
+  - first:
+      213: 6171430663056924313
+    second: tileB_farmA_108
+  - first:
+      213: 626822952507119029
+    second: tileB_farmA_109
+  - first:
+      213: -4443436498270915523
+    second: tileB_farmA_110
+  - first:
+      213: 8639014992018144752
+    second: tileB_farmA_111
+  - first:
+      213: -8676157629272261666
+    second: tileB_farmA_112
+  - first:
+      213: -5281711990890447821
+    second: tileB_farmA_113
+  - first:
+      213: -5640362796757829281
+    second: tileB_farmA_114
+  - first:
+      213: 6180223578727672978
+    second: tileB_farmA_115
+  - first:
+      213: 5685996534496850992
+    second: tileB_farmA_116
+  - first:
+      213: -7178429340862138607
+    second: tileB_farmA_117
+  - first:
+      213: -1614654382239620023
+    second: tileB_farmA_118
+  - first:
+      213: 3225392381602442377
+    second: tileB_farmA_119
+  - first:
+      213: -7468936824577172167
+    second: tileB_farmA_120
+  - first:
+      213: 3719972793539064798
+    second: tileB_farmA_121
+  - first:
+      213: -5806150063507389024
+    second: tileB_farmA_122
+  - first:
+      213: -4205792097330515979
+    second: tileB_farmA_123
+  - first:
+      213: 7038691631306133664
+    second: tileB_farmA_124
+  - first:
+      213: 51260200473223466
+    second: tileB_farmA_125
+  - first:
+      213: -3384289918857848549
+    second: tileB_farmA_126
+  - first:
+      213: 3540995796848978540
+    second: tileB_farmA_127
+  - first:
+      213: 6488506616434818001
+    second: tileB_farmA_128
+  - first:
+      213: 2493607669015222020
+    second: tileB_farmA_129
+  - first:
+      213: -8761497792955764940
+    second: tileB_farmA_130
+  - first:
+      213: -102893084675593600
+    second: tileB_farmA_131
+  - first:
+      213: 5137580446092473644
+    second: tileB_farmA_132
+  - first:
+      213: 9060320972857447475
+    second: tileB_farmA_133
+  - first:
+      213: 5679134295592493645
+    second: tileB_farmA_134
+  - first:
+      213: -6179329571297126742
+    second: tileB_farmA_135
+  - first:
+      213: -7203224567132684107
+    second: tileB_farmA_136
+  - first:
+      213: 1212361730557915852
+    second: tileB_farmA_137
+  - first:
+      213: -6149612779010156807
+    second: tileB_farmA_138
+  - first:
+      213: 5443063644831181600
+    second: tileB_farmA_139
+  - first:
+      213: 429953509601621712
+    second: tileB_farmA_140
+  - first:
+      213: 136842834535554287
+    second: tileB_farmA_141
+  - first:
+      213: 7944476671519135989
+    second: tileB_farmA_142
+  - first:
+      213: 811467776422539695
+    second: tileB_farmA_143
+  - first:
+      213: 4359649853848339250
+    second: tileB_farmA_144
+  - first:
+      213: 2634766512749318094
+    second: tileB_farmA_145
+  - first:
+      213: -2988415510901873043
+    second: tileB_farmA_146
+  - first:
+      213: -4723401458941436843
+    second: tileB_farmA_147
+  - first:
+      213: -4281786147003970786
+    second: tileB_farmA_148
+  - first:
+      213: -3309643103844003113
+    second: tileB_farmA_149
+  - first:
+      213: -4245945317413303337
+    second: tileB_farmA_150
+  - first:
+      213: -3732931785009615673
+    second: tileB_farmA_151
+  - first:
+      213: 6693916981254329460
+    second: tileB_farmA_152
+  - first:
+      213: 6298514532715224117
+    second: tileB_farmA_153
+  - first:
+      213: 1547494303486481110
+    second: tileB_farmA_154
+  - first:
+      213: 777476252594347971
+    second: tileB_farmA_155
+  - first:
+      213: -2359226533268006987
+    second: tileB_farmA_156
+  - first:
+      213: -29069495244758180
+    second: tileB_farmA_157
+  - first:
+      213: -7036536795280603542
+    second: tileB_farmA_158
+  - first:
+      213: -4478144242630005251
+    second: tileB_farmA_159
+  - first:
+      213: -7944893502241770309
+    second: tileB_farmA_160
+  - first:
+      213: -2641703779148946831
+    second: tileB_farmA_161
+  - first:
+      213: 7505124251563853025
+    second: tileB_farmA_162
+  - first:
+      213: -436513197822814846
+    second: tileB_farmA_163
+  - first:
+      213: 3624917588397025690
+    second: tileB_farmA_164
+  - first:
+      213: -8222883302772695580
+    second: tileB_farmA_165
+  - first:
+      213: 452153441513851549
+    second: tileB_farmA_166
+  - first:
+      213: -2311655441729766413
+    second: tileB_farmA_167
+  - first:
+      213: -3583947305026227530
+    second: tileB_farmA_168
+  - first:
+      213: -4987718702810729901
+    second: tileB_farmA_169
+  - first:
+      213: 7390259274605600131
+    second: tileB_farmA_170
+  - first:
+      213: -9204084320260923864
+    second: tileB_farmA_171
+  - first:
+      213: -1761921635667939395
+    second: tileB_farmA_172
+  - first:
+      213: -2174724810508930053
+    second: tileB_farmA_173
+  - first:
+      213: 2430630286900870333
+    second: tileB_farmA_174
+  - first:
+      213: -7690296436728488882
+    second: tileB_farmA_175
+  - first:
+      213: -4375639275772829211
+    second: tileB_farmA_176
+  - first:
+      213: -3340460714930888524
+    second: tileB_farmA_177
+  - first:
+      213: -1486264278831246107
+    second: tileB_farmA_178
+  - first:
+      213: -8152864341230971942
+    second: tileB_farmA_179
+  - first:
+      213: 4021643479573567318
+    second: tileB_farmA_180
+  - first:
+      213: -459852819950972683
+    second: tileB_farmA_181
+  - first:
+      213: -6396369336352626933
+    second: tileB_farmA_182
+  - first:
+      213: -72747931404176429
+    second: tileB_farmA_183
+  - first:
+      213: 6360519198092744791
+    second: tileB_farmA_184
+  - first:
+      213: 6488715338030568592
+    second: tileB_farmA_185
+  - first:
+      213: -3383551191000688855
+    second: tileB_farmA_186
+  - first:
+      213: 2413095856131567629
+    second: tileB_farmA_187
+  - first:
+      213: 4106261660899709702
+    second: tileB_farmA_188
+  - first:
+      213: 6669665232627387153
+    second: tileB_farmA_189
+  - first:
+      213: 7983444578281407058
+    second: tileB_farmA_190
+  - first:
+      213: -4291291439042524587
+    second: tileB_farmA_191
+  - first:
+      213: 151010440202348861
+    second: tileB_farmA_192
+  - first:
+      213: -6824174221319154196
+    second: tileB_farmA_193
+  - first:
+      213: -698965729073266991
+    second: tileB_farmA_194
+  - first:
+      213: -2802267543620488909
+    second: tileB_farmA_195
+  - first:
+      213: 3592799044938679467
+    second: tileB_farmA_196
+  - first:
+      213: -7276676238960515653
+    second: tileB_farmA_197
+  - first:
+      213: -2685723456361984604
+    second: tileB_farmA_198
+  - first:
+      213: -1307283633941185971
+    second: tileB_farmA_199
+  - first:
+      213: 9011258188513137608
+    second: tileB_farmA_200
+  - first:
+      213: 2352630775401099892
+    second: tileB_farmA_201
+  - first:
+      213: 8293280533042704270
+    second: tileB_farmA_202
+  - first:
+      213: 7830368050963488000
+    second: tileB_farmA_203
+  - first:
+      213: 6216624629943168114
+    second: tileB_farmA_204
+  - first:
+      213: 298903724227608905
+    second: tileB_farmA_205
+  - first:
+      213: 4098017113503248821
+    second: tileB_farmA_206
+  - first:
+      213: -7444762058844511792
+    second: tileB_farmA_207
+  - first:
+      213: 7203267550261950235
+    second: tileB_farmA_208
+  - first:
+      213: -5675459894579365550
+    second: tileB_farmA_209
+  - first:
+      213: -7273979746679745176
+    second: tileB_farmA_210
+  - first:
+      213: -2273340533535573201
+    second: tileB_farmA_211
+  - first:
+      213: 6000485424220026026
+    second: tileB_farmA_212
+  - first:
+      213: -5106836859959577220
+    second: tileB_farmA_213
+  - first:
+      213: -6791955327280102206
+    second: tileB_farmA_214
+  - first:
+      213: -6929061674352739605
+    second: tileB_farmA_215
+  - first:
+      213: -5259836896019480836
+    second: tileB_farmA_216
+  - first:
+      213: -1831867826717353756
+    second: tileB_farmA_217
+  - first:
+      213: 8583580089029164114
+    second: tileB_farmA_218
+  - first:
+      213: -2251039900619978477
+    second: tileB_farmA_219
+  - first:
+      213: -2124938152020429391
+    second: tileB_farmA_220
+  - first:
+      213: -7733034157207490349
+    second: tileB_farmA_221
+  - first:
+      213: -1799080923384080602
+    second: tileB_farmA_222
+  - first:
+      213: -6632727228499677340
+    second: tileB_farmA_223
+  - first:
+      213: 74565208138836042
+    second: tileB_farmA_224
+  - first:
+      213: -60334316810388639
+    second: tileB_farmA_225
+  - first:
+      213: -7618311517118198033
+    second: tileB_farmA_226
+  - first:
+      213: -2682512343177019829
+    second: tileB_farmA_227
+  - first:
+      213: -8424370309004912208
+    second: tileB_farmA_228
+  - first:
+      213: -4425299227823867408
+    second: tileB_farmA_229
+  - first:
+      213: 1534888563087524732
+    second: tileB_farmA_230
+  - first:
+      213: 5086519543159698057
+    second: tileB_farmA_231
+  - first:
+      213: 4753938161545830369
+    second: tileB_farmA_232
+  - first:
+      213: -9214070448469446109
+    second: tileB_farmA_233
+  - first:
+      213: 6188591308339457478
+    second: tileB_farmA_234
+  - first:
+      213: 2130357329022480455
+    second: tileB_farmA_235
+  - first:
+      213: 9168411109902264771
+    second: tileB_farmA_236
+  - first:
+      213: 615433219122793014
+    second: tileB_farmA_237
+  - first:
+      213: -2767354035874544509
+    second: tileB_farmA_238
+  - first:
+      213: 3008565848302930214
+    second: tileB_farmA_239
+  - first:
+      213: -737391898586234640
+    second: tileB_farmA_240
+  - first:
+      213: -3352564605368371228
+    second: tileB_farmA_241
+  - first:
+      213: 1660104512510255396
+    second: tileB_farmA_242
+  - first:
+      213: 2180637475077528051
+    second: tileB_farmA_243
+  - first:
+      213: 3239294345417222480
+    second: tileB_farmA_244
+  - first:
+      213: 8082964627053164503
+    second: tileB_farmA_245
+  - first:
+      213: -7648745307978529175
+    second: tileB_farmA_246
+  - first:
+      213: 6719681589982857605
+    second: tileB_farmA_247
+  - first:
+      213: -5789856041998349518
+    second: tileB_farmA_248
+  - first:
+      213: 1533839130645054012
+    second: tileB_farmA_249
+  - first:
+      213: 2481182137305664486
+    second: tileB_farmA_250
+  - first:
+      213: 4526038730140149872
+    second: tileB_farmA_251
+  - first:
+      213: 1649896658720018676
+    second: tileB_farmA_252
+  - first:
+      213: 5533116479184911980
+    second: tileB_farmA_253
+  - first:
+      213: 3375801930442040941
+    second: tileB_farmA_254
+  - first:
+      213: -8882104172126202361
+    second: tileB_farmA_255
+  - first:
+      213: -5263090240924376223
+    second: tileB_farmA_256
+  - first:
+      213: -4064755091641672777
+    second: tileB_farmA_257
+  - first:
+      213: 3337094972194508454
+    second: tileB_farmA_258
+  - first:
+      213: -8113930380815308116
+    second: tileB_farmA_259
+  - first:
+      213: -3821303847064671013
+    second: tileB_farmA_260
+  - first:
+      213: 5675604417283311151
+    second: tileB_farmA_261
+  - first:
+      213: 1360091336844897595
+    second: tileB_farmA_262
+  - first:
+      213: 2759578464389474730
+    second: tileB_farmA_263
+  - first:
+      213: 8950711844410296492
+    second: tileB_farmA_264
+  - first:
+      213: -3147567682737334228
+    second: tileB_farmA_265
+  - first:
+      213: -5873935828260532469
+    second: tileB_farmA_266
+  - first:
+      213: 5772241980777893955
+    second: tileB_farmA_267
+  - first:
+      213: -2386776273860792996
+    second: tileB_farmA_268
+  - first:
+      213: -4276359763217691241
+    second: tileB_farmA_269
+  - first:
+      213: 4105432958643740930
+    second: tileB_farmA_270
+  - first:
+      213: 5416369393666353412
+    second: tileB_farmA_271
+  - first:
+      213: 7334123291967734235
+    second: tileB_farmA_272
+  - first:
+      213: 1835345725342746926
+    second: tileB_farmA_273
+  - first:
+      213: 1120858560584603742
+    second: tileB_farmA_274
+  - first:
+      213: -1292939352165949201
+    second: tileB_farmA_275
+  - first:
+      213: 462375675051026458
+    second: tileB_farmA_276
+  - first:
+      213: 5575524444028023776
+    second: tileB_farmA_277
+  - first:
+      213: -8646526142932481261
+    second: tileB_farmA_278
+  - first:
+      213: -362148268116284497
+    second: tileB_farmA_279
+  - first:
+      213: 8232246061595583357
+    second: tileB_farmA_280
+  - first:
+      213: -2918845882535011907
+    second: tileB_farmA_281
+  - first:
+      213: 6419378892239603380
+    second: tileB_farmA_282
+  - first:
+      213: -2783865792619172965
+    second: tileB_farmA_283
+  - first:
+      213: 5765081857957619189
+    second: tileB_farmA_284
+  - first:
+      213: -5437778910794947276
+    second: tileB_farmA_285
+  - first:
+      213: 7167892406728405280
+    second: tileB_farmA_286
+  - first:
+      213: 1856837558337229682
+    second: tileB_farmA_287
+  - first:
+      213: -2262670020394170642
+    second: tileB_farmA_288
+  - first:
+      213: 6757245853594948221
+    second: tileB_farmA_289
+  - first:
+      213: 4053882567260501963
+    second: tileB_farmA_290
+  - first:
+      213: -9100430670314085808
+    second: tileB_farmA_291
+  - first:
+      213: 1376786694248883949
+    second: tileB_farmA_292
+  - first:
+      213: 8418007579032471215
+    second: tileB_farmA_293
+  - first:
+      213: 7217327448256923298
+    second: tileB_farmA_294
+  - first:
+      213: 5310175079778079689
+    second: tileB_farmA_295
+  - first:
+      213: -599220454091236091
+    second: tileB_farmA_296
+  - first:
+      213: 3425686071621018177
+    second: tileB_farmA_297
+  - first:
+      213: -1073296076578323719
+    second: tileB_farmA_298
+  - first:
+      213: 2018759302504286940
+    second: tileB_farmA_299
+  - first:
+      213: 3456462754488535254
+    second: tileB_farmA_300
+  - first:
+      213: 2573877489325026472
+    second: tileB_farmA_301
+  - first:
+      213: -1311003354511281125
+    second: tileB_farmA_302
+  - first:
+      213: -2186259371889280804
+    second: tileB_farmA_303
+  - first:
+      213: 6810450598095206465
+    second: tileB_farmA_304
+  - first:
+      213: -6285102245784681609
+    second: tileB_farmA_305
+  - first:
+      213: -7216687784481902271
+    second: tileB_farmA_306
+  - first:
+      213: 5179934924014754135
+    second: tileB_farmA_307
+  - first:
+      213: 1544426939378801288
+    second: tileB_farmA_308
+  - first:
+      213: 1362871872174618602
+    second: tileB_farmA_309
+  - first:
+      213: 1657340555443412531
+    second: tileB_farmA_310
+  - first:
+      213: 2113742834465388731
+    second: tileB_farmA_311
+  - first:
+      213: 6336741584905749249
+    second: tileB_farmA_312
+  - first:
+      213: -4712117560399152790
+    second: tileB_farmA_313
+  - first:
+      213: -4703422269789815938
+    second: tileB_farmA_314
+  - first:
+      213: -7016663710460136591
+    second: tileB_farmA_315
+  - first:
+      213: 7226778083065111397
+    second: tileB_farmA_316
+  - first:
+      213: -5045387050433932630
+    second: tileB_farmA_317
+  - first:
+      213: 535979620212557274
+    second: tileB_farmA_318
+  - first:
+      213: 1795639744651985493
+    second: tileB_farmA_319
+  - first:
+      213: -4760133742700756252
+    second: tileB_farmA_320
+  - first:
+      213: -3169214039396988718
+    second: tileB_farmA_321
+  - first:
+      213: 1218436496725239996
+    second: tileB_farmA_322
+  - first:
+      213: -7795969097751025741
+    second: tileB_farmA_323
+  - first:
+      213: 6102971260766201806
+    second: tileB_farmA_324
+  - first:
+      213: 3941415602825946963
+    second: tileB_farmA_325
+  - first:
+      213: 4539290372721563606
+    second: tileB_farmA_326
+  - first:
+      213: 1878278723181940491
+    second: tileB_farmA_327
+  - first:
+      213: -2516085200169793816
+    second: tileB_farmA_328
+  - first:
+      213: -711512202734030053
+    second: tileB_farmA_329
+  - first:
+      213: -2617131922324820332
+    second: tileB_farmA_330
+  - first:
+      213: 5753302489107457898
+    second: tileB_farmA_331
+  - first:
+      213: -8608049602016832554
+    second: tileB_farmA_332
+  - first:
+      213: 7604744781472756282
+    second: tileB_farmA_333
+  - first:
+      213: 5908094051137395971
+    second: tileB_farmA_334
+  - first:
+      213: -6109210790500954867
+    second: tileB_farmA_335
+  - first:
+      213: -8649590977465802345
+    second: tileB_farmA_336
+  - first:
+      213: 1352642070158536874
+    second: tileB_farmA_337
+  - first:
+      213: -5053934683185402237
+    second: tileB_farmA_338
+  - first:
+      213: -7888491722954006714
+    second: tileB_farmA_339
+  - first:
+      213: 6187113774399234794
+    second: tileB_farmA_340
+  - first:
+      213: -3416387560917982446
+    second: tileB_farmA_341
+  - first:
+      213: -130995082732259634
+    second: tileB_farmA_342
+  - first:
+      213: 1509957461773862006
+    second: tileB_farmA_343
+  - first:
+      213: -6548165194013455136
+    second: tileB_farmA_344
+  - first:
+      213: 6365042384130913030
+    second: tileB_farmA_345
+  - first:
+      213: -7845879509595010679
+    second: tileB_farmA_346
+  - first:
+      213: -6639270864115622258
+    second: tileB_farmA_347
+  - first:
+      213: 8324773223113968779
+    second: tileB_farmA_348
+  - first:
+      213: -1330603735486781618
+    second: tileB_farmA_349
+  - first:
+      213: 1424327343999701074
+    second: tileB_farmA_350
+  - first:
+      213: -637530237749344949
+    second: tileB_farmA_351
+  - first:
+      213: 8355178688148828867
+    second: tileB_farmA_352
+  - first:
+      213: 3705235815138378604
+    second: tileB_farmA_353
+  - first:
+      213: -2438492897767664139
+    second: tileB_farmA_354
+  - first:
+      213: -2234790462088488549
+    second: tileB_farmA_355
+  - first:
+      213: 8388391290758588864
+    second: tileB_farmA_356
+  - first:
+      213: 6446967059623101077
+    second: tileB_farmA_357
+  - first:
+      213: 6963722157499319089
+    second: tileB_farmA_358
+  - first:
+      213: 4894788665027745004
+    second: tileB_farmA_359
+  - first:
+      213: -245355620954478896
+    second: tileB_farmA_360
+  - first:
+      213: 6073418665589168558
+    second: tileB_farmA_361
+  - first:
+      213: 1438572210414906163
+    second: tileB_farmA_362
+  - first:
+      213: -5933151140842284781
+    second: tileB_farmA_363
+  - first:
+      213: -7239334408631417444
+    second: tileB_farmA_364
+  - first:
+      213: 4984391777315237107
+    second: tileB_farmA_365
+  - first:
+      213: -1282707175326013324
+    second: tileB_farmA_366
+  - first:
+      213: 2151471565600422879
+    second: tileB_farmA_367
+  - first:
+      213: -6986015373789796681
+    second: tileB_farmA_368
+  - first:
+      213: 2179552932662507847
+    second: tileB_farmA_369
+  - first:
+      213: -4765160638680447770
+    second: tileB_farmA_370
+  - first:
+      213: 2247818385149827656
+    second: tileB_farmA_371
+  - first:
+      213: 4700355974695895500
+    second: tileB_farmA_372
+  - first:
+      213: 6451734745103268167
+    second: tileB_farmA_373
+  - first:
+      213: -5716410645731932563
+    second: tileB_farmA_374
+  - first:
+      213: -3065890638099285005
+    second: tileB_farmA_375
+  - first:
+      213: 5090295128825976965
+    second: tileB_farmA_376
+  - first:
+      213: 3203713703289851447
+    second: tileB_farmA_377
+  - first:
+      213: -3867908720906115716
+    second: tileB_farmA_378
+  - first:
+      213: -1778089638636401309
+    second: tileB_farmA_379
+  - first:
+      213: 9081274070594475560
+    second: tileB_farmA_380
+  - first:
+      213: 8876465363532871761
+    second: tileB_farmA_381
+  - first:
+      213: 4785769551603370039
+    second: tileB_farmA_382
+  - first:
+      213: -7647749747339529019
+    second: tileB_farmA_383
+  - first:
+      213: -7503262914638283655
+    second: tileB_farmA_384
+  - first:
+      213: -6203310006200253996
+    second: tileB_farmA_385
+  - first:
+      213: -6107230097774322774
+    second: tileB_farmA_386
+  - first:
+      213: 4868570509384758860
+    second: tileB_farmA_387
+  - first:
+      213: -4761410574890205087
+    second: tileB_farmA_388
+  - first:
+      213: 7475241334729312246
+    second: tileB_farmA_389
+  - first:
+      213: -4537272333239571411
+    second: tileB_farmA_390
+  - first:
+      213: -5309872436977260437
+    second: tileB_farmA_391
+  - first:
+      213: -7912265489380504214
+    second: tileB_farmA_392
+  - first:
+      213: -4872545225805317282
+    second: tileB_farmA_393
+  - first:
+      213: -6968220485702656784
+    second: tileB_farmA_394
+  - first:
+      213: 4441207238027462074
+    second: tileB_farmA_395
+  - first:
+      213: -2528373816265855885
+    second: tileB_farmA_396
+  - first:
+      213: -7365553646893210352
+    second: tileB_farmA_397
+  - first:
+      213: 2399885847358040023
+    second: tileB_farmA_398
+  - first:
+      213: -1839238354586237354
+    second: tileB_farmA_399
+  - first:
+      213: 8412283189334480419
+    second: tileB_farmA_400
+  - first:
+      213: 699039331004300943
+    second: tileB_farmA_401
+  - first:
+      213: 5284302320654596886
+    second: tileB_farmA_402
+  - first:
+      213: 6088321894125744916
+    second: tileB_farmA_403
+  - first:
+      213: -3278639823910362552
+    second: tileB_farmA_404
+  - first:
+      213: -5512456038371310513
+    second: tileB_farmA_405
+  - first:
+      213: 8241661330188425960
+    second: tileB_farmA_406
+  - first:
+      213: -1981200715876768267
+    second: tileB_farmA_407
+  - first:
+      213: -6927129178590696625
+    second: tileB_farmA_408
+  - first:
+      213: 3679927506351281688
+    second: tileB_farmA_409
+  - first:
+      213: 4824963178144301228
+    second: tileB_farmA_410
+  - first:
+      213: 7384757811196326787
+    second: tileB_farmA_411
+  - first:
+      213: -6392387477790989291
+    second: tileB_farmA_412
+  - first:
+      213: 3891727638191376755
+    second: tileB_farmA_413
+  - first:
+      213: -6628527499167701926
+    second: tileB_farmA_414
+  - first:
+      213: -1725166328098670967
+    second: tileB_farmA_415
+  - first:
+      213: 2120072945343968692
+    second: tileB_farmA_416
+  - first:
+      213: -2870554164946619878
+    second: tileB_farmA_417
+  - first:
+      213: 1413566492625778269
+    second: tileB_farmA_418
+  - first:
+      213: 8865928702488244335
+    second: tileB_farmA_419
+  - first:
+      213: -2336958975414777954
+    second: tileB_farmA_420
+  - first:
+      213: -1343747605878010379
+    second: tileB_farmA_421
+  - first:
+      213: 6407043948560547068
+    second: tileB_farmA_422
+  - first:
+      213: -4801598956812154482
+    second: tileB_farmA_423
+  - first:
+      213: 1244035832410944102
+    second: tileB_farmA_424
+  - first:
+      213: -6284475406860863507
+    second: tileB_farmA_425
+  - first:
+      213: -1542215809711593549
+    second: tileB_farmA_426
+  - first:
+      213: 8598687217280621039
+    second: tileB_farmA_427
+  - first:
+      213: 42127982678330940
+    second: tileB_farmA_428
+  - first:
+      213: -7690857091340883484
+    second: tileB_farmA_429
+  - first:
+      213: -3003984117815249969
+    second: tileB_farmA_430
+  - first:
+      213: -2264271092472652418
+    second: tileB_farmA_431
+  - first:
+      213: -9059982920967009839
+    second: tileB_farmA_432
+  - first:
+      213: 9157355300756177867
+    second: tileB_farmA_433
+  - first:
+      213: -7483365673480968482
+    second: tileB_farmA_434
+  - first:
+      213: 3143537839290169233
+    second: tileB_farmA_435
+  - first:
+      213: 4074443561180522004
+    second: tileB_farmA_436
+  - first:
+      213: -6850041513209102972
+    second: tileB_farmA_437
+  - first:
+      213: 3081961962852039277
+    second: tileB_farmA_438
+  - first:
+      213: -4397059350595309857
+    second: tileB_farmA_439
+  - first:
+      213: -8830494980121193009
+    second: tileB_farmA_440
+  - first:
+      213: -4579714163497046006
+    second: tileB_farmA_441
+  - first:
+      213: 7413543381416198318
+    second: tileB_farmA_442
+  - first:
+      213: -1001157433602176527
+    second: tileB_farmA_443
+  - first:
+      213: -8070796077369425327
+    second: tileB_farmA_444
+  - first:
+      213: 8594196637028717479
+    second: tileB_farmA_445
+  - first:
+      213: 7736202424756198918
+    second: tileB_farmA_446
+  - first:
+      213: -3562100042256683637
+    second: tileB_farmA_447
+  - first:
+      213: 6847512617205442145
+    second: tileB_farmA_448
+  - first:
+      213: -4384534269347029648
+    second: tileB_farmA_449
+  - first:
+      213: 596245029110097651
+    second: tileB_farmA_450
+  - first:
+      213: 4432561746725051990
+    second: tileB_farmA_451
+  - first:
+      213: 1209569321363545573
+    second: tileB_farmA_452
+  - first:
+      213: 6001099874536451746
+    second: tileB_farmA_453
+  - first:
+      213: 2183520733899106965
+    second: tileB_farmA_454
+  - first:
+      213: -5472826047974424297
+    second: tileB_farmA_455
+  - first:
+      213: 1372944718869871779
+    second: tileB_farmA_456
+  - first:
+      213: 2206428874485994683
+    second: tileB_farmA_457
+  - first:
+      213: -8253125495797173101
+    second: tileB_farmA_458
+  - first:
+      213: 2333599261352537505
+    second: tileB_farmA_459
+  - first:
+      213: 3752706206084117689
+    second: tileB_farmA_460
+  - first:
+      213: -7220322649361002107
+    second: tileB_farmA_461
+  - first:
+      213: 4899723679727787953
+    second: tileB_farmA_462
+  - first:
+      213: -5283927065047540061
+    second: tileB_farmA_463
+  - first:
+      213: -1143655860336146206
+    second: tileB_farmA_464
+  - first:
+      213: -6039624475223057788
+    second: tileB_farmA_465
+  - first:
+      213: 2505677726078918707
+    second: tileB_farmA_466
+  - first:
+      213: -484748758569147090
+    second: tileB_farmA_467
+  - first:
+      213: -8913679027407015335
+    second: tileB_farmA_468
+  - first:
+      213: -5807569932695189191
+    second: tileB_farmA_469
+  - first:
+      213: 986241365276659396
+    second: tileB_farmA_470
+  - first:
+      213: -5773793537424589128
+    second: tileB_farmA_471
+  - first:
+      213: -3959442424598675601
+    second: tileB_farmA_472
+  - first:
+      213: -1691619207790085366
+    second: tileB_farmA_473
+  - first:
+      213: 7565152472102627340
+    second: tileB_farmA_474
+  - first:
+      213: -31996778956057096
+    second: tileB_farmA_475
+  - first:
+      213: 6022527042586001511
+    second: tileB_farmA_476
+  - first:
+      213: -4064464123874142451
+    second: tileB_farmA_477
+  - first:
+      213: 5911603668849713345
+    second: tileB_farmA_478
+  - first:
+      213: 4015751695106698779
+    second: tileB_farmA_479
+  - first:
+      213: 3243808180223348707
+    second: tileB_farmA_480
+  - first:
+      213: 670098441029495638
+    second: tileB_farmA_481
+  - first:
+      213: 8387087743020307711
+    second: tileB_farmA_482
+  - first:
+      213: 8644917695903719884
+    second: tileB_farmA_483
+  - first:
+      213: 7970101596737898200
+    second: tileB_farmA_484
+  - first:
+      213: 7435393140176520894
+    second: tileB_farmA_485
+  - first:
+      213: 8126802626804293620
+    second: tileB_farmA_486
+  - first:
+      213: -9000053627744935500
+    second: tileB_farmA_487
+  - first:
+      213: 2235283749168854482
+    second: tileB_farmA_488
+  - first:
+      213: -3255129475598379233
+    second: tileB_farmA_489
+  - first:
+      213: 8301401950115463475
+    second: tileB_farmA_490
+  - first:
+      213: 6978528293970280764
+    second: tileB_farmA_491
+  - first:
+      213: 8696484169296245007
+    second: tileB_farmA_492
+  - first:
+      213: 6221651541903172144
+    second: tileB_farmA_493
+  - first:
+      213: 4675023379878595231
+    second: tileB_farmA_494
+  - first:
+      213: -4061183068331358704
+    second: tileB_farmA_495
+  - first:
+      213: 305697074677842763
+    second: tileB_farmA_496
+  - first:
+      213: -2275363024175250779
+    second: tileB_farmA_497
+  - first:
+      213: 2633349683711201385
+    second: tileB_farmA_498
+  - first:
+      213: 7180866972167610348
+    second: tileB_farmA_499
+  - first:
+      213: 758462529972829160
+    second: tileB_farmA_500
+  - first:
+      213: 2093504275730977653
+    second: tileB_farmA_501
+  - first:
+      213: -5239200813604800865
+    second: tileB_farmA_502
+  - first:
+      213: 228123370793048536
+    second: tileB_farmA_503
+  - first:
+      213: -1730917327019808103
+    second: tileB_farmA_504
+  - first:
+      213: -6477912451963350976
+    second: tileB_farmA_505
+  - first:
+      213: 7344203672696905852
+    second: tileB_farmA_506
+  - first:
+      213: -2303133177337408266
+    second: tileB_farmA_507
+  - first:
+      213: 6728029324594939537
+    second: tileB_farmA_508
+  - first:
+      213: 693278261266994189
+    second: tileB_farmA_509
+  - first:
+      213: -4814591399549476985
+    second: tileB_farmA_510
+  - first:
+      213: -9099983872123044459
+    second: tileB_farmA_511
+  - first:
+      213: -4563724660824007578
+    second: tileB_farmA_512
+  - first:
+      213: 5472579867216884377
+    second: tileB_farmA_513
+  - first:
+      213: 3830085995600601699
+    second: tileB_farmA_514
+  - first:
+      213: -8172937853599600099
+    second: tileB_farmA_515
+  - first:
+      213: 7466092394444584505
+    second: tileB_farmA_516
+  - first:
+      213: 877501197449217331
+    second: tileB_farmA_517
+  - first:
+      213: 4982463528671534304
+    second: tileB_farmA_518
+  - first:
+      213: 5568675218586012409
+    second: tileB_farmA_519
+  - first:
+      213: 7385106603952343090
+    second: tileB_farmA_520
+  - first:
+      213: -7369690865916855431
+    second: tileB_farmA_521
+  - first:
+      213: 1047263684400955784
+    second: tileB_farmA_522
+  - first:
+      213: 8894080029284860201
+    second: tileB_farmA_523
+  - first:
+      213: -3595797883200988168
+    second: tileB_farmA_524
+  - first:
+      213: 3017954504407656413
+    second: tileB_farmA_525
+  - first:
+      213: 3293477271000417542
+    second: tileB_farmA_526
+  - first:
+      213: 7479035315009824285
+    second: tileB_farmA_527
+  - first:
+      213: -9066826499253721438
+    second: tileB_farmA_528
+  - first:
+      213: -5121104322235813546
+    second: tileB_farmA_529
+  - first:
+      213: 5622264104612268640
+    second: tileB_farmA_530
+  - first:
+      213: -4723216830984721383
+    second: tileB_farmA_531
+  - first:
+      213: 3625580504484913103
+    second: tileB_farmA_532
+  - first:
+      213: 6265730703819767500
+    second: tileB_farmA_533
+  - first:
+      213: -4419129135425377036
+    second: tileB_farmA_534
+  - first:
+      213: 6941412475033909885
+    second: tileB_farmA_535
+  - first:
+      213: -3744514122484545352
+    second: tileB_farmA_536
+  - first:
+      213: -4385102174102782143
+    second: tileB_farmA_537
+  - first:
+      213: 747639027063832777
+    second: tileB_farmA_538
+  - first:
+      213: 2822605666233345129
+    second: tileB_farmA_539
+  - first:
+      213: -1081220045244860026
+    second: tileB_farmA_540
+  - first:
+      213: 1309508445056365872
+    second: tileB_farmA_541
+  - first:
+      213: -3555315828817674932
+    second: tileB_farmA_542
+  - first:
+      213: 5303609739033802014
+    second: tileB_farmA_543
+  - first:
+      213: 5379353787487566330
+    second: tileB_farmA_544
+  - first:
+      213: -4935475008895602144
+    second: tileB_farmA_545
+  - first:
+      213: -8281947660220069311
+    second: tileB_farmA_546
+  - first:
+      213: -6438677176361321167
+    second: tileB_farmA_547
+  - first:
+      213: -4607615878976798708
+    second: tileB_farmA_548
+  - first:
+      213: 5292962528543704685
+    second: tileB_farmA_549
+  - first:
+      213: -8316141891664420618
+    second: tileB_farmA_550
+  - first:
+      213: 49540772355091564
+    second: tileB_farmA_551
+  - first:
+      213: 3687017841590520224
+    second: tileB_farmA_552
+  - first:
+      213: 4690530753673393427
+    second: tileB_farmA_553
+  - first:
+      213: -4656052782325877512
+    second: tileB_farmA_554
+  - first:
+      213: 4164275109643816257
+    second: tileB_farmA_555
+  - first:
+      213: -7886458791994555386
+    second: tileB_farmA_556
+  - first:
+      213: 6058589210112467125
+    second: tileB_farmA_557
+  - first:
+      213: 1032286756900846466
+    second: tileB_farmA_558
+  - first:
+      213: -7590195513969528878
+    second: tileB_farmA_559
+  - first:
+      213: 1464336848572668500
+    second: tileB_farmA_560
+  - first:
+      213: -1291707443017016270
+    second: tileB_farmA_561
+  - first:
+      213: -6064941540453417795
+    second: tileB_farmA_562
+  - first:
+      213: -3265178233562473284
+    second: tileB_farmA_563
+  - first:
+      213: 4021995835278674068
+    second: tileB_farmA_564
+  - first:
+      213: 6276847073233737551
+    second: tileB_farmA_565
+  - first:
+      213: -6438706383994180791
+    second: tileB_farmA_566
+  - first:
+      213: 8794263648595863481
+    second: tileB_farmA_567
+  - first:
+      213: -581025802851106317
+    second: tileB_farmA_568
+  - first:
+      213: 4412731374378179243
+    second: tileB_farmA_569
+  - first:
+      213: -3012781381009284657
+    second: tileB_farmA_570
+  - first:
+      213: 8729542024427671437
+    second: tileB_farmA_571
+  - first:
+      213: -4859673347274024428
+    second: tileB_farmA_572
+  - first:
+      213: 2894552443800551281
+    second: tileB_farmA_573
+  - first:
+      213: 7736038684096768524
+    second: tileB_farmA_574
+  - first:
+      213: 3784872548640371890
+    second: tileB_farmA_575
+  - first:
+      213: -8406990084843402397
+    second: tileB_farmA_576
+  - first:
+      213: -5903958651219047183
+    second: tileB_farmA_577
+  - first:
+      213: 7553300285646455199
+    second: tileB_farmA_578
+  - first:
+      213: 5849919248221997419
+    second: tileB_farmA_579
+  - first:
+      213: 4790906998416940845
+    second: tileB_farmA_580
+  - first:
+      213: -1576393206514126426
+    second: tileB_farmA_581
+  - first:
+      213: 3661844760416821984
+    second: tileB_farmA_582
+  - first:
+      213: 3665397372382223222
+    second: tileB_farmA_583
+  - first:
+      213: 715455039008730345
+    second: tileB_farmA_584
+  - first:
+      213: 1138619026298797693
+    second: tileB_farmA_585
+  - first:
+      213: 6658829133599631086
+    second: tileB_farmA_586
+  - first:
+      213: 8164078270411208803
+    second: tileB_farmA_587
+  - first:
+      213: 2276464073316492396
+    second: tileB_farmA_588
+  - first:
+      213: -2715882462868390641
+    second: tileB_farmA_589
+  - first:
+      213: 2368575912075560676
+    second: tileB_farmA_590
+  - first:
+      213: 4453101585728185910
+    second: tileB_farmA_591
+  - first:
+      213: 6756121682811334135
+    second: tileB_farmA_592
+  - first:
+      213: -5527348749981577651
+    second: tileB_farmA_593
+  - first:
+      213: -4591758148659867306
+    second: tileB_farmA_594
+  - first:
+      213: 774109961929877410
+    second: tileB_farmA_595
+  - first:
+      213: 2350754535454895818
+    second: tileB_farmA_596
+  - first:
+      213: 1534419536377668896
+    second: tileB_farmA_597
+  - first:
+      213: 4984293387348825106
+    second: tileB_farmA_598
+  - first:
+      213: -3528712369601441626
+    second: tileB_farmA_599
+  - first:
+      213: 3164422722151057531
+    second: tileB_farmA_600
+  - first:
+      213: 3382051280805601635
+    second: tileB_farmA_601
+  - first:
+      213: -7462500688046284331
+    second: tileB_farmA_602
+  - first:
+      213: -713543098262481906
+    second: tileB_farmA_603
+  - first:
+      213: -6067959689323382933
+    second: tileB_farmA_604
+  - first:
+      213: -8958503962257598097
+    second: tileB_farmA_605
+  - first:
+      213: -1389444437545177255
+    second: tileB_farmA_606
+  - first:
+      213: -2843041697828930854
+    second: tileB_farmA_607
+  - first:
+      213: 256029450003906013
+    second: tileB_farmA_608
+  - first:
+      213: -7463780151398758640
+    second: tileB_farmA_609
+  - first:
+      213: -3358814924530671260
+    second: tileB_farmA_610
+  - first:
+      213: -4034808776412433873
+    second: tileB_farmA_611
+  - first:
+      213: -5301692643143731806
+    second: tileB_farmA_612
+  - first:
+      213: 4334623325147680500
+    second: tileB_farmA_613
+  - first:
+      213: -4533471363946818590
+    second: tileB_farmA_614
+  - first:
+      213: -7303635683385205259
+    second: tileB_farmA_615
+  - first:
+      213: -1478470839991001005
+    second: tileB_farmA_616
+  - first:
+      213: 2264830348591030515
+    second: tileB_farmA_617
+  - first:
+      213: -565419260043075934
+    second: tileB_farmA_618
+  - first:
+      213: 1459491083842492895
+    second: tileB_farmA_619
+  - first:
+      213: -2496221008353094448
+    second: tileB_farmA_620
+  - first:
+      213: -4626832182594948624
+    second: tileB_farmA_621
+  - first:
+      213: 8534968931913442163
+    second: tileB_farmA_622
+  - first:
+      213: -7108023665584243468
+    second: tileB_farmA_623
+  - first:
+      213: 5686926682491022768
+    second: tileB_farmA_624
+  - first:
+      213: -8387937045939801010
+    second: tileB_farmA_625
+  - first:
+      213: 5061444174942273600
+    second: tileB_farmA_626
+  - first:
+      213: -6560306098156416173
+    second: tileB_farmA_627
+  - first:
+      213: -7743093732412054226
+    second: tileB_farmA_628
+  - first:
+      213: -838820247880004512
+    second: tileB_farmA_629
+  - first:
+      213: -4480047766588697735
+    second: tileB_farmA_630
+  - first:
+      213: 290488891310476088
+    second: tileB_farmA_631
+  - first:
+      213: -5248573430202913428
+    second: tileB_farmA_632
+  - first:
+      213: -8752094445576770968
+    second: tileB_farmA_633
+  - first:
+      213: -4403366684635376776
+    second: tileB_farmA_634
+  - first:
+      213: -3726956497699914011
+    second: tileB_farmA_635
+  - first:
+      213: -3933790740747104481
+    second: tileB_farmA_636
+  - first:
+      213: -1400093863402966476
+    second: tileB_farmA_637
+  - first:
+      213: 3711500568755336506
+    second: tileB_farmA_638
+  - first:
+      213: -4574134932142321173
+    second: tileB_farmA_639
+  - first:
+      213: -5926867486148252214
+    second: tileB_farmA_640
+  - first:
+      213: 8395301881445355472
+    second: tileB_farmA_641
+  - first:
+      213: 8743438679924194870
+    second: tileB_farmA_642
+  - first:
+      213: 5950279131601383716
+    second: tileB_farmA_643
+  - first:
+      213: -2731438831806026321
+    second: tileB_farmA_644
+  - first:
+      213: -6174570602644579247
+    second: tileB_farmA_645
+  - first:
+      213: 2910531861303833433
+    second: tileB_farmA_646
+  - first:
+      213: -4974046586585932463
+    second: tileB_farmA_647
+  - first:
+      213: -7334500743330625314
+    second: tileB_farmA_648
+  - first:
+      213: -3656143143490903857
+    second: tileB_farmA_649
+  - first:
+      213: -2341292483171910896
+    second: tileB_farmA_650
+  - first:
+      213: -6463978094011777425
+    second: tileB_farmA_651
+  - first:
+      213: 2446308124784294596
+    second: tileB_farmA_652
+  - first:
+      213: -5905968506942114479
+    second: tileB_farmA_653
+  - first:
+      213: 8468558386759752251
+    second: tileB_farmA_654
+  - first:
+      213: 3288031317408513801
+    second: tileB_farmA_655
+  - first:
+      213: 2934950010485640600
+    second: tileB_farmA_656
+  - first:
+      213: 2665584202208692865
+    second: tileB_farmA_657
+  - first:
+      213: 5044027542445958273
+    second: tileB_farmA_658
+  - first:
+      213: 7060859730831461036
+    second: tileB_farmA_659
+  - first:
+      213: -6693992949924718538
+    second: tileB_farmA_660
+  - first:
+      213: 7847754963054321984
+    second: tileB_farmA_661
+  - first:
+      213: -2360960102954003482
+    second: tileB_farmA_662
+  - first:
+      213: 2576636921403030894
+    second: tileB_farmA_663
+  - first:
+      213: 3089077222202225611
+    second: tileB_farmA_664
+  - first:
+      213: -4459860317098247337
+    second: tileB_farmA_665
+  - first:
+      213: 8949190075386109474
+    second: tileB_farmA_666
+  - first:
+      213: 8793305337940088039
+    second: tileB_farmA_667
+  - first:
+      213: -1984013433671003296
+    second: tileB_farmA_668
+  - first:
+      213: 8600365963210476882
+    second: tileB_farmA_669
+  - first:
+      213: -3698468426916665499
+    second: tileB_farmA_670
+  - first:
+      213: 712500811236634735
+    second: tileB_farmA_671
+  - first:
+      213: -8284263678820631443
+    second: tileB_farmA_672
+  - first:
+      213: -5633970021863407464
+    second: tileB_farmA_673
+  - first:
+      213: 1034411261192937876
+    second: tileB_farmA_674
+  - first:
+      213: -3596319835143060314
+    second: tileB_farmA_675
+  - first:
+      213: -5358465483834235329
+    second: tileB_farmA_676
+  - first:
+      213: 5002387304271052875
+    second: tileB_farmA_677
+  - first:
+      213: -5412229820468345018
+    second: tileB_farmA_678
+  - first:
+      213: 3927540058831876247
+    second: tileB_farmA_679
+  - first:
+      213: 882755374693333318
+    second: tileB_farmA_680
+  - first:
+      213: 2691737964785331287
+    second: tileB_farmA_681
+  - first:
+      213: 8143711769728162784
+    second: tileB_farmA_682
+  - first:
+      213: 425981717734163708
+    second: tileB_farmA_683
+  - first:
+      213: -730990571486385916
+    second: tileB_farmA_684
+  - first:
+      213: 6315611570110057303
+    second: tileB_farmA_685
+  - first:
+      213: 8332963500384700357
+    second: tileB_farmA_686
+  - first:
+      213: 8131694283778419057
+    second: tileB_farmA_687
+  - first:
+      213: 3893938011449515122
+    second: tileB_farmA_688
+  - first:
+      213: -6837061230897412789
+    second: tileB_farmA_689
+  - first:
+      213: -4878197553839414478
+    second: tileB_farmA_690
+  - first:
+      213: -611040139787576840
+    second: tileB_farmA_691
+  - first:
+      213: -1136327862834925348
+    second: tileB_farmA_692
+  - first:
+      213: 5075873380932771691
+    second: tileB_farmA_693
+  - first:
+      213: -6206277328273323419
+    second: tileB_farmA_694
+  - first:
+      213: -3078706723264948908
+    second: tileB_farmA_695
+  - first:
+      213: 5310584559709746933
+    second: tileB_farmA_696
+  - first:
+      213: -3345401510049021194
+    second: tileB_farmA_697
+  - first:
+      213: 3685968357477235724
+    second: tileB_farmA_698
+  - first:
+      213: 5671674988792085308
+    second: tileB_farmA_699
+  - first:
+      213: -8787361287739015736
+    second: tileB_farmA_700
+  - first:
+      213: 4691062309903984429
+    second: tileB_farmA_701
+  - first:
+      213: -6984468786461779445
+    second: tileB_farmA_702
+  - first:
+      213: -5448123539087576013
+    second: tileB_farmA_703
+  - first:
+      213: 4899226599617604964
+    second: tileB_farmA_704
+  - first:
+      213: 7247725377547041858
+    second: tileB_farmA_705
+  - first:
+      213: -4445863662219901949
+    second: tileB_farmA_706
+  - first:
+      213: 3903312967789713867
+    second: tileB_farmA_707
+  - first:
+      213: 5025694183264423972
+    second: tileB_farmA_708
+  - first:
+      213: -556291912679728732
+    second: tileB_farmA_709
+  - first:
+      213: 3337488880763086008
+    second: tileB_farmA_710
+  - first:
+      213: -7861451853246365797
+    second: tileB_farmA_711
+  - first:
+      213: -6611556410625764654
+    second: tileB_farmA_712
+  - first:
+      213: 1657139285406285494
+    second: tileB_farmA_713
+  - first:
+      213: -6890044100049724814
+    second: tileB_farmA_714
+  - first:
+      213: -8048873791136929104
+    second: tileB_farmA_715
+  - first:
+      213: -6423551431789379676
+    second: tileB_farmA_716
+  - first:
+      213: 5781138239203902826
+    second: tileB_farmA_717
+  - first:
+      213: -3330452613053569151
+    second: tileB_farmA_718
+  - first:
+      213: 2750467764536681186
+    second: tileB_farmA_719
+  - first:
+      213: 3441739252435081371
+    second: tileB_farmA_720
+  - first:
+      213: 4052047180370596591
+    second: tileB_farmA_721
+  - first:
+      213: 2707745822944171816
+    second: tileB_farmA_722
+  - first:
+      213: -7697598746945966860
+    second: tileB_farmA_723
+  - first:
+      213: -2087661040488287897
+    second: tileB_farmA_724
+  - first:
+      213: 8772957409439841634
+    second: tileB_farmA_725
+  - first:
+      213: -3944170242188749495
+    second: tileB_farmA_726
+  - first:
+      213: 8360390671550615860
+    second: tileB_farmA_727
+  - first:
+      213: -2137164061391821444
+    second: tileB_farmA_728
+  - first:
+      213: -1031238462494667367
+    second: tileB_farmA_729
+  - first:
+      213: 4278354760679048380
+    second: tileB_farmA_730
+  - first:
+      213: 1033469265490439412
+    second: tileB_farmA_731
+  - first:
+      213: -7785872995405227183
+    second: tileB_farmA_732
+  - first:
+      213: 8547559487596616257
+    second: tileB_farmA_733
+  - first:
+      213: 2919185184503533229
+    second: tileB_farmA_734
+  - first:
+      213: -8101563962756433671
+    second: tileB_farmA_735
+  - first:
+      213: -6022541608100273910
+    second: tileB_farmA_736
+  - first:
+      213: -4890258467381054412
+    second: tileB_farmA_737
+  - first:
+      213: 2586483026496655959
+    second: tileB_farmA_738
+  - first:
+      213: 5445930847901113064
+    second: tileB_farmA_739
+  - first:
+      213: 5228642952616574494
+    second: tileB_farmA_740
+  - first:
+      213: -4674606442420252606
+    second: tileB_farmA_741
+  - first:
+      213: -2767208223396325103
+    second: tileB_farmA_742
+  - first:
+      213: 2613204285858585109
+    second: tileB_farmA_743
+  - first:
+      213: -550478587367046835
+    second: tileB_farmA_744
+  - first:
+      213: -8694132561173192613
+    second: tileB_farmA_745
+  - first:
+      213: 6804177680327012959
+    second: tileB_farmA_746
+  - first:
+      213: 1206462190932220469
+    second: tileB_farmA_747
+  - first:
+      213: 8956170290047558328
+    second: tileB_farmA_748
+  - first:
+      213: 2843802104638651213
+    second: tileB_farmA_749
+  - first:
+      213: 7936764055521026181
+    second: tileB_farmA_750
+  - first:
+      213: -7994648991894447228
+    second: tileB_farmA_751
+  - first:
+      213: -6143037377909888117
+    second: tileB_farmA_752
+  - first:
+      213: -8089991532568353769
+    second: tileB_farmA_753
+  - first:
+      213: -187526534603237711
+    second: tileB_farmA_754
+  - first:
+      213: 3972023169018866870
+    second: tileB_farmA_755
+  - first:
+      213: 7871202428084297218
+    second: tileB_farmA_756
+  - first:
+      213: -4498443623867990972
+    second: tileB_farmA_757
+  - first:
+      213: -3326022888123566858
+    second: tileB_farmA_758
+  - first:
+      213: -90790592597856267
+    second: tileB_farmA_759
+  - first:
+      213: 7023261518448666687
+    second: tileB_farmA_760
+  - first:
+      213: 8131518257001911717
+    second: tileB_farmA_761
+  - first:
+      213: 1245076874393326319
+    second: tileB_farmA_762
+  - first:
+      213: 3569161020905977546
+    second: tileB_farmA_763
+  - first:
+      213: -3916870902911740785
+    second: tileB_farmA_764
+  - first:
+      213: -8129944030745860256
+    second: tileB_farmA_765
+  - first:
+      213: -1777997159489082654
+    second: tileB_farmA_766
+  - first:
+      213: -9202344433130999339
+    second: tileB_farmA_767
+  - first:
+      213: 2715592591885021959
+    second: tileB_farmA_768
+  - first:
+      213: -8064482938645049636
+    second: tileB_farmA_769
+  - first:
+      213: 755089264704043628
+    second: tileB_farmA_770
+  - first:
+      213: 4910304132891591485
+    second: tileB_farmA_771
+  - first:
+      213: 1229390552162563389
+    second: tileB_farmA_772
+  - first:
+      213: -2010967233550148575
+    second: tileB_farmA_773
+  - first:
+      213: 2638490303118000069
+    second: tileB_farmA_774
+  - first:
+      213: 5971537321994262802
+    second: tileB_farmA_775
+  - first:
+      213: -6867007364787324183
+    second: tileB_farmA_776
+  - first:
+      213: -2476087842278009705
+    second: tileB_farmA_777
+  - first:
+      213: 8773717828223185379
+    second: tileB_farmA_778
+  - first:
+      213: -7912690536268651657
+    second: tileB_farmA_779
+  - first:
+      213: 3938172333910862170
+    second: tileB_farmA_780
+  - first:
+      213: -7311899521264591626
+    second: tileB_farmA_781
+  - first:
+      213: -295238605675152084
+    second: tileB_farmA_782
+  - first:
+      213: 6685524791972806397
+    second: tileB_farmA_783
+  - first:
+      213: -5031663168083652961
+    second: tileB_farmA_784
+  - first:
+      213: -7994225434811963730
+    second: tileB_farmA_785
+  - first:
+      213: 6092257238995131808
+    second: tileB_farmA_786
+  - first:
+      213: 1953833412352328527
+    second: tileB_farmA_787
+  - first:
+      213: 983341198834506048
+    second: tileB_farmA_788
+  - first:
+      213: 2218293491332692134
+    second: tileB_farmA_789
+  - first:
+      213: 1482276724282717307
+    second: tileB_farmA_790
+  - first:
+      213: -4923961045971059966
+    second: tileB_farmA_791
+  - first:
+      213: -6691639458387368604
+    second: tileB_farmA_792
+  - first:
+      213: -2512975728976655511
+    second: tileB_farmA_793
+  - first:
+      213: 2905221598884217144
+    second: tileB_farmA_794
+  - first:
+      213: 2239353181867975017
+    second: tileB_farmA_795
+  - first:
+      213: -8434254540705523742
+    second: tileB_farmA_796
+  - first:
+      213: -3175818125218431801
+    second: tileB_farmA_797
+  - first:
+      213: 5721494533480706028
+    second: tileB_farmA_798
+  - first:
+      213: -3499983432896446625
+    second: tileB_farmA_799
+  - first:
+      213: 3410755206317270750
+    second: tileB_farmA_800
+  - first:
+      213: 593183005600583757
+    second: tileB_farmA_801
+  - first:
+      213: -6315385449663390206
+    second: tileB_farmA_802
+  - first:
+      213: -5571581164499007108
+    second: tileB_farmA_803
+  - first:
+      213: -2127559047487508289
+    second: tileB_farmA_804
+  - first:
+      213: 8953115117759293969
+    second: tileB_farmA_805
+  - first:
+      213: -7847784038289325111
+    second: tileB_farmA_806
+  - first:
+      213: 5043405200674607493
+    second: tileB_farmA_807
+  - first:
+      213: -8388108136875853162
+    second: tileB_farmA_808
+  - first:
+      213: -1552675313298654916
+    second: tileB_farmA_809
+  - first:
+      213: -2285212880592496832
+    second: tileB_farmA_810
+  - first:
+      213: 2687950079620835390
+    second: tileB_farmA_811
+  - first:
+      213: 7755392799783505894
+    second: tileB_farmA_812
+  - first:
+      213: -7416624057997623120
+    second: tileB_farmA_813
+  - first:
+      213: 5792676406611074777
+    second: tileB_farmA_814
+  - first:
+      213: -4284245538629216502
+    second: tileB_farmA_815
+  - first:
+      213: -3520644891412999982
+    second: tileB_farmA_816
+  - first:
+      213: 7842692455445926730
+    second: tileB_farmA_817
+  - first:
+      213: 2230964206061422996
+    second: tileB_farmA_818
+  - first:
+      213: 1343330507547526026
+    second: tileB_farmA_819
+  - first:
+      213: 3230769105567334522
+    second: tileB_farmA_820
+  - first:
+      213: -1456174330991788108
+    second: tileB_farmA_821
+  - first:
+      213: -3797627963326741490
+    second: tileB_farmA_822
+  - first:
+      213: 1382860737741588107
+    second: tileB_farmA_823
+  - first:
+      213: 6089550242701466245
+    second: tileB_farmA_824
+  - first:
+      213: -6201424110639671360
+    second: tileB_farmA_825
+  - first:
+      213: 3446424917985179538
+    second: tileB_farmA_826
+  - first:
+      213: 6836898412853563357
+    second: tileB_farmA_827
+  - first:
+      213: 773603464187455295
+    second: tileB_farmA_828
+  - first:
+      213: -4452385670347093125
+    second: tileB_farmA_829
+  - first:
+      213: -7109227676839703469
+    second: tileB_farmA_830
+  - first:
+      213: -4109676594053836477
+    second: tileB_farmA_831
+  - first:
+      213: 5850192190135595526
+    second: tileB_farmA_832
+  - first:
+      213: 6751055748264509504
+    second: tileB_farmA_833
+  - first:
+      213: 5063529287644458226
+    second: tileB_farmA_834
+  - first:
+      213: 5099588655980719939
+    second: tileB_farmA_835
+  - first:
+      213: -4241660935397021760
+    second: tileB_farmA_836
+  - first:
+      213: 9075617681422034537
+    second: tileB_farmA_837
+  - first:
+      213: -4276603023807622521
+    second: tileB_farmA_838
+  - first:
+      213: 4840390319521558364
+    second: tileB_farmA_839
+  - first:
+      213: 8448744268062776791
+    second: tileB_farmA_840
+  - first:
+      213: 3106578708252511008
+    second: tileB_farmA_841
+  - first:
+      213: 7160415282455979064
+    second: tileB_farmA_842
+  - first:
+      213: -8204546785730273618
+    second: tileB_farmA_843
+  - first:
+      213: 7760319210905122276
+    second: tileB_farmA_844
+  - first:
+      213: -3271171208131300189
+    second: tileB_farmA_845
+  - first:
+      213: -28360547043591074
+    second: tileB_farmA_846
+  - first:
+      213: -728806797753413038
+    second: tileB_farmA_847
+  - first:
+      213: 6512125235344607821
+    second: tileB_farmA_848
+  - first:
+      213: 5015280497357928682
+    second: tileB_farmA_849
+  - first:
+      213: -2429977426748498498
+    second: tileB_farmA_850
+  - first:
+      213: 809252060340969256
+    second: tileB_farmA_851
+  - first:
+      213: -1890063345809182734
+    second: tileB_farmA_852
+  - first:
+      213: 4699975700740207880
+    second: tileB_farmA_853
+  - first:
+      213: 8200320627072354585
+    second: tileB_farmA_854
+  - first:
+      213: 7409648844496949566
+    second: tileB_farmA_855
+  - first:
+      213: -5672855996644366291
+    second: tileB_farmA_856
+  - first:
+      213: 5749894750777679207
+    second: tileB_farmA_857
+  - first:
+      213: 4696777154315115226
+    second: tileB_farmA_858
+  - first:
+      213: 654123516869489038
+    second: tileB_farmA_859
+  - first:
+      213: -8230931265029435480
+    second: tileB_farmA_860
+  - first:
+      213: 265328122068831624
+    second: tileB_farmA_861
+  - first:
+      213: -7945804589113689177
+    second: tileB_farmA_862
+  - first:
+      213: 4620867094703969507
+    second: tileB_farmA_863
+  - first:
+      213: 2900425129443637672
+    second: tileB_farmA_864
+  - first:
+      213: 6488894872438678428
+    second: tileB_farmA_865
+  - first:
+      213: -9171222356296073714
+    second: tileB_farmA_866
+  - first:
+      213: -1191290274522552725
+    second: tileB_farmA_867
+  - first:
+      213: -3660740037708031191
+    second: tileB_farmA_868
+  - first:
+      213: -4297880129666229363
+    second: tileB_farmA_869
+  - first:
+      213: -5454252324241681802
+    second: tileB_farmA_870
+  - first:
+      213: -7667863772151461435
+    second: tileB_farmA_871
+  - first:
+      213: -4000515885667732319
+    second: tileB_farmA_872
+  - first:
+      213: -3422001494698389561
+    second: tileB_farmA_873
+  - first:
+      213: 4095478047856213869
+    second: tileB_farmA_874
+  - first:
+      213: 5458683186686153570
+    second: tileB_farmA_875
+  - first:
+      213: -7115219258442694487
+    second: tileB_farmA_876
+  - first:
+      213: -6446172995813922767
+    second: tileB_farmA_877
+  - first:
+      213: 5571693855900654535
+    second: tileB_farmA_878
+  - first:
+      213: -9180561095605118513
+    second: tileB_farmA_879
+  - first:
+      213: -3604721974311082440
+    second: tileB_farmA_880
+  - first:
+      213: 4716192290381039545
+    second: tileB_farmA_881
+  - first:
+      213: 5980662745027630609
+    second: tileB_farmA_882
+  - first:
+      213: 6108509084056235508
+    second: tileB_farmA_883
+  - first:
+      213: -7727644680413224871
+    second: tileB_farmA_884
+  - first:
+      213: -4896010916465968258
+    second: tileB_farmA_885
+  - first:
+      213: -2590445783326035423
+    second: tileB_farmA_886
+  - first:
+      213: 6203917357830625762
+    second: tileB_farmA_887
+  - first:
+      213: -5024623822336306238
+    second: tileB_farmA_888
+  - first:
+      213: -7460271332942083278
+    second: tileB_farmA_889
+  - first:
+      213: 8452311792790665628
+    second: tileB_farmA_890
+  - first:
+      213: 7109029578043418198
+    second: tileB_farmA_891
+  - first:
+      213: 6500653894186215513
+    second: tileB_farmA_892
+  - first:
+      213: -2311207856986189808
+    second: tileB_farmA_893
+  - first:
+      213: 2629903881951748568
+    second: tileB_farmA_894
+  - first:
+      213: 9148474362307993221
+    second: tileB_farmA_895
+  - first:
+      213: 7851563699181306534
+    second: tileB_farmA_896
+  - first:
+      213: 6016956601444508811
+    second: tileB_farmA_897
+  - first:
+      213: 1212634245071585042
+    second: tileB_farmA_898
+  - first:
+      213: 8404457392444937987
+    second: tileB_farmA_899
+  - first:
+      213: 1801911844482785495
+    second: tileB_farmA_900
+  - first:
+      213: -3389584006141379611
+    second: tileB_farmA_901
+  - first:
+      213: -8686247368613812874
+    second: tileB_farmA_902
+  - first:
+      213: 7757465694434432041
+    second: tileB_farmA_903
+  - first:
+      213: -6574289588449459010
+    second: tileB_farmA_904
+  - first:
+      213: -6413775148392703168
+    second: tileB_farmA_905
+  - first:
+      213: 4297525055565153599
+    second: tileB_farmA_906
+  - first:
+      213: -8037338296106420423
+    second: tileB_farmA_907
+  - first:
+      213: 8117617755040416967
+    second: tileB_farmA_908
+  - first:
+      213: 9194646475362258942
+    second: tileB_farmA_909
+  - first:
+      213: -5359835194288355264
+    second: tileB_farmA_910
+  - first:
+      213: -2835384314062505670
+    second: tileB_farmA_911
+  - first:
+      213: -2745134068081729460
+    second: tileB_farmA_912
+  - first:
+      213: 2278554582554962414
+    second: tileB_farmA_913
+  - first:
+      213: 2782111935137686125
+    second: tileB_farmA_914
+  - first:
+      213: 1790702616494777840
+    second: tileB_farmA_915
+  - first:
+      213: 8383048985470817305
+    second: tileB_farmA_916
+  - first:
+      213: 7277292194927890631
+    second: tileB_farmA_917
+  - first:
+      213: 1242560718995459025
+    second: tileB_farmA_918
+  - first:
+      213: 6807898259775495564
+    second: tileB_farmA_919
+  - first:
+      213: 6627384902826965762
+    second: tileB_farmA_920
+  - first:
+      213: 7659193728887289462
+    second: tileB_farmA_921
+  - first:
+      213: 3088668429247717675
+    second: tileB_farmA_922
+  - first:
+      213: 5113491337076597519
+    second: tileB_farmA_923
+  - first:
+      213: 7590461376694166024
+    second: tileB_farmA_924
+  - first:
+      213: 4085183219658997375
+    second: tileB_farmA_925
+  - first:
+      213: 2783063842140697839
+    second: tileB_farmA_926
+  - first:
+      213: -472985903292118689
+    second: tileB_farmA_927
+  - first:
+      213: -8416629688803491462
+    second: tileB_farmA_928
+  - first:
+      213: 7435092301718097333
+    second: tileB_farmA_929
+  - first:
+      213: 4105526724603372903
+    second: tileB_farmA_930
+  - first:
+      213: 3933889102112702094
+    second: tileB_farmA_931
+  - first:
+      213: -8012920742296852342
+    second: tileB_farmA_932
+  - first:
+      213: -3607805888959896889
+    second: tileB_farmA_933
+  - first:
+      213: 8564030365214479974
+    second: tileB_farmA_934
+  - first:
+      213: 2734473196348759140
+    second: tileB_farmA_935
+  - first:
+      213: -2423299556767059131
+    second: tileB_farmA_0
+  - first:
+      213: -6394348979405649442
+    second: tileB_farmA_1
+  - first:
+      213: 7605758280976136541
+    second: tileB_farmA_2
+  - first:
+      213: 2041871047555609389
+    second: tileB_farmA_3
+  - first:
+      213: -8005388617675311065
+    second: tileB_farmA_4
+  - first:
+      213: 184082144555184306
+    second: tileB_farmA_5
+  - first:
+      213: -1612184486740464540
+    second: tileB_farmA_6
+  - first:
+      213: 2177393983539243745
+    second: tileB_farmA_7
+  - first:
+      213: 6539685651349757956
+    second: tileB_farmA_8
+  - first:
+      213: -3480656984226360353
+    second: tileB_farmA_9
+  - first:
+      213: 4007727920101121679
+    second: tileB_farmA_10
+  - first:
+      213: -545659821410515593
+    second: tileB_farmA_11
+  - first:
+      213: 3245974594571627034
+    second: tileB_farmA_12
+  - first:
+      213: 6382530162748467195
+    second: tileB_farmA_13
+  - first:
+      213: -6248644059915897566
+    second: tileB_farmA_14
+  - first:
+      213: 2288715956504895443
+    second: tileB_farmA_15
+  - first:
+      213: 1334701905523905967
+    second: tileB_farmA_16
+  - first:
+      213: -1027528714103348752
+    second: tileB_farmA_17
+  - first:
+      213: -4933955477213213117
+    second: tileB_farmA_18
+  - first:
+      213: -5972224785301177857
+    second: tileB_farmA_19
+  - first:
+      213: 2103554358373068517
+    second: tileB_farmA_20
+  - first:
+      213: 8354965989812656432
+    second: tileB_farmA_21
+  - first:
+      213: -6566012782620250262
+    second: tileB_farmA_22
+  - first:
+      213: -2221028073128130987
+    second: tileB_farmA_23
+  - first:
+      213: -4880483097290361851
+    second: tileB_farmA_24
+  - first:
+      213: 3829252949738193443
+    second: tileB_farmA_25
+  - first:
+      213: -838412640496666559
+    second: tileB_farmA_26
+  - first:
+      213: -923293790244021465
+    second: tileB_farmA_27
+  - first:
+      213: 7116285087248723912
+    second: tileB_farmA_28
+  - first:
+      213: 8375933022581003407
+    second: tileB_farmA_29
+  - first:
+      213: 828761829736971902
+    second: tileB_farmA_30
+  - first:
+      213: 8029921601819859044
+    second: tileB_farmA_31
+  - first:
+      213: -5111378125863186417
+    second: tileB_farmA_32
+  - first:
+      213: -6671972492101066723
+    second: tileB_farmA_33
+  - first:
+      213: -7832553370463307089
+    second: tileB_farmA_34
+  - first:
+      213: -698860873146211599
+    second: tileB_farmA_35
+  - first:
+      213: -246187439984061958
+    second: tileB_farmA_36
+  - first:
+      213: 8816983396831709449
+    second: tileB_farmA_37
+  - first:
+      213: 4983965969529076277
+    second: tileB_farmA_38
+  - first:
+      213: -4561345102231960332
+    second: tileB_farmA_39
+  - first:
+      213: 8275858338034416793
+    second: tileB_farmA_40
+  - first:
+      213: 5473827580202991129
+    second: tileB_farmA_41
+  - first:
+      213: -6845701079257614821
+    second: tileB_farmA_42
+  - first:
+      213: 3572207085258520497
+    second: tileB_farmA_43
+  - first:
+      213: -5606567030248900525
+    second: tileB_farmA_44
+  - first:
+      213: -2318593138587762335
+    second: tileB_farmA_45
+  - first:
+      213: -1718185692090431995
+    second: tileB_farmA_46
+  - first:
+      213: -5213624303226828055
+    second: tileB_farmA_47
+  - first:
+      213: -1776974444002458447
+    second: tileB_farmA_48
+  - first:
+      213: 7116651004788712560
+    second: tileB_farmA_49
+  - first:
+      213: 3837769635251587045
+    second: tileB_farmA_50
+  - first:
+      213: -3587052750320138423
+    second: tileB_farmA_51
+  - first:
+      213: 6458961874937944044
+    second: tileB_farmA_52
+  - first:
+      213: 2240461114287608556
+    second: tileB_farmA_53
+  - first:
+      213: 6180349795178618922
+    second: tileB_farmA_54
+  - first:
+      213: -8848680776907384555
+    second: tileB_farmA_55
+  - first:
+      213: -8059875977031657404
+    second: tileB_farmA_56
+  - first:
+      213: 5701529417016018603
+    second: tileB_farmA_57
+  - first:
+      213: 7382489717126863194
+    second: tileB_farmA_58
+  - first:
+      213: 8792970822245678567
+    second: tileB_farmA_59
+  - first:
+      213: 6781340034703274876
+    second: tileB_farmA_60
+  - first:
+      213: 6965054954163895171
+    second: tileB_farmA_61
+  - first:
+      213: -4950636068303708624
+    second: tileB_farmA_62
+  - first:
+      213: -1602065024531799551
+    second: tileB_farmA_63
+  - first:
+      213: -2367568874391967702
+    second: tileB_farmA_64
+  - first:
+      213: -6400814448836041355
+    second: tileB_farmA_65
+  - first:
+      213: 5887358057185944370
+    second: tileB_farmA_66
+  - first:
+      213: 7527756971874577485
+    second: tileB_farmA_67
+  - first:
+      213: 3726968702793719091
+    second: tileB_farmA_68
+  - first:
+      213: -3284412193415769078
+    second: tileB_farmA_69
+  - first:
+      213: 8724823604047481570
+    second: tileB_farmA_70
+  - first:
+      213: 7159275822122664223
+    second: tileB_farmA_71
+  - first:
+      213: 662748402820968046
+    second: tileB_farmA_72
+  - first:
+      213: 3156830040524195122
+    second: tileB_farmA_73
+  - first:
+      213: 1786885003209143830
+    second: tileB_farmA_74
+  - first:
+      213: -5589953116559402501
+    second: tileB_farmA_75
+  - first:
+      213: -5689342822270084137
+    second: tileB_farmA_76
+  - first:
+      213: 6700007432749489196
+    second: tileB_farmA_77
+  - first:
+      213: -2154480790572641797
+    second: tileB_farmA_78
+  - first:
+      213: -1224504554893025653
+    second: tileB_farmA_79
+  - first:
+      213: 5493506008365757198
+    second: tileB_farmA_80
+  - first:
+      213: 4170215570817101821
+    second: tileB_farmA_81
+  - first:
+      213: 2158920638652858413
+    second: tileB_farmA_82
+  - first:
+      213: -9042164924439338275
+    second: tileB_farmA_83
+  - first:
+      213: -9151834613838351834
+    second: tileB_farmA_84
+  - first:
+      213: -1630667030428058055
+    second: tileB_farmA_85
+  - first:
+      213: -6272043376007450617
+    second: tileB_farmA_86
+  - first:
+      213: 8987039639645695648
+    second: tileB_farmA_87
+  - first:
+      213: -7248051238531443340
+    second: tileB_farmA_88
+  - first:
+      213: -7640914922116087191
+    second: tileB_farmA_89
+  - first:
+      213: -7223047864172449981
+    second: tileB_farmA_90
+  - first:
+      213: 5310259113214980744
+    second: tileB_farmA_91
+  - first:
+      213: -4123751949811272023
+    second: tileB_farmA_92
+  - first:
+      213: -4545783946090092027
+    second: tileB_farmA_93
+  - first:
+      213: 403435762367003180
+    second: tileB_farmA_94
+  - first:
+      213: -4572026385872761567
+    second: tileB_farmA_95
+  - first:
+      213: -7153865073131800278
+    second: tileB_farmA_96
+  - first:
+      213: 553991872461065856
+    second: tileB_farmA_97
+  - first:
+      213: -678429226366628636
+    second: tileB_farmA_98
+  - first:
+      213: 4171581205384615429
+    second: tileB_farmA_99
+  - first:
+      213: -5923896609669964360
+    second: tileB_farmA_100
+  - first:
+      213: 3394984122599184212
+    second: tileB_farmA_101
+  - first:
+      213: 6159215448597023705
+    second: tileB_farmA_102
+  - first:
+      213: -3561179661912508513
+    second: tileB_farmA_103
+  - first:
+      213: 2020786483301221367
+    second: tileB_farmA_104
+  - first:
+      213: 3830617425291662734
+    second: tileB_farmA_105
+  - first:
+      213: 1274877913433998014
+    second: tileB_farmA_106
+  - first:
+      213: -2832171132881845717
+    second: tileB_farmA_107
+  - first:
+      213: -1220216032750401310
+    second: tileB_farmA_108
+  - first:
+      213: -8039327501263357807
+    second: tileB_farmA_109
+  - first:
+      213: 6223276566427871864
+    second: tileB_farmA_110
+  - first:
+      213: 6026418702786736672
+    second: tileB_farmA_111
+  - first:
+      213: 3200370262837924578
+    second: tileB_farmA_112
+  - first:
+      213: 7404578844781200353
+    second: tileB_farmA_113
+  - first:
+      213: 3445583446496271768
+    second: tileB_farmA_114
+  - first:
+      213: 6297396755163476668
+    second: tileB_farmA_115
+  - first:
+      213: 1439546395169070331
+    second: tileB_farmA_116
+  - first:
+      213: -3052195673145444190
+    second: tileB_farmA_117
+  - first:
+      213: 6174216695594387252
+    second: tileB_farmA_118
+  - first:
+      213: 6423507275622424684
+    second: tileB_farmA_119
+  - first:
+      213: -8341995997279990167
+    second: tileB_farmA_120
+  - first:
+      213: -7171346833253368610
+    second: tileB_farmA_121
+  - first:
+      213: -6145532619119174408
+    second: tileB_farmA_122
+  - first:
+      213: 1332362381761460682
+    second: tileB_farmA_123
+  - first:
+      213: 4588517195426843272
+    second: tileB_farmA_124
+  - first:
+      213: -4921191403673605337
+    second: tileB_farmA_125
+  - first:
+      213: -1870698328000238033
+    second: tileB_farmA_126
+  - first:
+      213: -697243726288830237
+    second: tileB_farmA_127
+  - first:
+      213: -6173086927388759034
+    second: tileB_farmA_128
+  - first:
+      213: 4571505227313890291
+    second: tileB_farmA_129
+  - first:
+      213: -7626562789676981803
+    second: tileB_farmA_130
+  - first:
+      213: -6375603842708131946
+    second: tileB_farmA_131
+  - first:
+      213: 6549431963811907306
+    second: tileB_farmA_132
+  - first:
+      213: 8862815167862539266
+    second: tileB_farmA_133
+  - first:
+      213: -3600380756445740275
+    second: tileB_farmA_134
+  - first:
+      213: -8217921841654040507
+    second: tileB_farmA_135
+  - first:
+      213: 6304114111582188709
+    second: tileB_farmA_136
+  - first:
+      213: 4028378797907240022
+    second: tileB_farmA_137
+  - first:
+      213: -2578681305372241000
+    second: tileB_farmA_138
+  - first:
+      213: -304407598797335933
+    second: tileB_farmA_139
+  - first:
+      213: 714216915534613118
+    second: tileB_farmA_140
+  - first:
+      213: 5682436191541064371
+    second: tileB_farmA_141
+  - first:
+      213: 3998038402688285005
+    second: tileB_farmA_142
+  - first:
+      213: 6631121871333719899
+    second: tileB_farmA_143
+  - first:
+      213: 6218030916688481845
+    second: tileB_farmA_144
+  - first:
+      213: -1455331363545588648
+    second: tileB_farmA_145
+  - first:
+      213: 7219967314366162361
+    second: tileB_farmA_146
+  - first:
+      213: 8440383159180159073
+    second: tileB_farmA_147
+  - first:
+      213: -5146139711263831893
+    second: tileB_farmA_148
+  - first:
+      213: -6219618132084155571
+    second: tileB_farmA_149
+  - first:
+      213: -1152085948372503206
+    second: farmA_sprites_0
+  - first:
+      213: -6105096474755665127
+    second: farmA_sprites_1
+  - first:
+      213: 2198680957431879060
+    second: farmA_sprites_2
+  - first:
+      213: -8773264239432502427
+    second: farmA_sprites_3
+  - first:
+      213: -607959060919078149
+    second: farmA_sprites_4
+  - first:
+      213: -2938742750860106211
+    second: farmA_sprites_5
+  - first:
+      213: -3429379579524576456
+    second: farmA_sprites_6
+  - first:
+      213: -1188813192946716337
+    second: farmA_sprites_7
+  - first:
+      213: -6436990643245074539
+    second: farmA_sprites_8
+  - first:
+      213: -3195879188134283496
+    second: farmA_sprites_9
+  - first:
+      213: 4071683718493627321
+    second: farmA_sprites_10
+  - first:
+      213: -4227776208086684374
+    second: farmA_sprites_11
+  - first:
+      213: 7348353328129487742
+    second: farmA_sprites_12
+  - first:
+      213: -1255998806090027306
+    second: farmA_sprites_13
+  - first:
+      213: 3630199401525503397
+    second: farmA_sprites_14
+  - first:
+      213: 3834463878312716857
+    second: farmA_sprites_15
+  - first:
+      213: -659504200140786668
+    second: farmA_sprites_16
+  - first:
+      213: -4988678517494892397
+    second: farmA_sprites_17
+  - first:
+      213: -109767039699116475
+    second: farmA_sprites_18
+  - first:
+      213: -6457308414474555081
+    second: farmA_sprites_19
+  - first:
+      213: 3864097603641093076
+    second: farmA_sprites_20
+  - first:
+      213: 3147060151503025371
+    second: farmA_sprites_21
+  - first:
+      213: -4072676846872236060
+    second: farmA_sprites_22
+  - first:
+      213: -3508520910138173296
+    second: farmA_sprites_23
+  - first:
+      213: -92463116447609490
+    second: farmA_sprites_24
+  - first:
+      213: 2761800080772396101
+    second: farmA_sprites_25
+  - first:
+      213: -4938479281863393527
+    second: farmA_sprites_26
+  - first:
+      213: -4390962276858390929
+    second: farmA_sprites_27
+  - first:
+      213: -247825009077712340
+    second: farmA_sprites_28
+  - first:
+      213: -7782685951735855081
+    second: farmA_sprites_29
+  - first:
+      213: 6801381110425361434
+    second: farmA_sprites_30
+  - first:
+      213: -172127259351093750
+    second: farmA_sprites_31
+  - first:
+      213: 8781926109333689489
+    second: farmA_sprites_32
+  - first:
+      213: -7721548547597393400
+    second: farmA_sprites_33
+  - first:
+      213: -7020686500445562743
+    second: farmA_sprites_34
+  - first:
+      213: -6515446717949414061
+    second: farmA_sprites_35
+  - first:
+      213: 264351646443144068
+    second: farmA_sprites_36
+  - first:
+      213: -2968895877515053259
+    second: farmA_sprites_37
+  - first:
+      213: -2966810612600472169
+    second: farmA_sprites_38
+  - first:
+      213: -6601747622943041985
+    second: farmA_sprites_39
+  - first:
+      213: -3356035705343202674
+    second: farmA_sprites_40
+  - first:
+      213: -6608980303475536588
+    second: farmA_sprites_41
+  - first:
+      213: 9064712995830948713
+    second: farmA_sprites_42
+  - first:
+      213: 6125323124555646992
+    second: farmA_sprites_43
+  - first:
+      213: 3069240954171412083
+    second: farmA_sprites_44
+  - first:
+      213: -1458132717231925233
+    second: farmA_sprites_45
+  - first:
+      213: 1379627653460306058
+    second: farmA_sprites_46
+  - first:
+      213: 28671873091793637
+    second: farmA_sprites_47
+  - first:
+      213: 2947433039623215947
+    second: farmA_sprites_48
+  - first:
+      213: 7271600160080418034
+    second: farmA_sprites_49
+  - first:
+      213: 5738101543132585952
+    second: farmA_sprites_50
+  - first:
+      213: -6806278844123843237
+    second: farmA_sprites_51
+  - first:
+      213: -2233559924738953465
+    second: farmA_sprites_52
+  - first:
+      213: 4453684324983670225
+    second: farmA_sprites_53
+  - first:
+      213: -6004131358646382757
+    second: farmA_sprites_54
+  - first:
+      213: -4207546747933506891
+    second: farmA_sprites_55
+  - first:
+      213: -2203100877630727375
+    second: farmA_sprites_56
+  - first:
+      213: -658019405189945233
+    second: farmA_sprites_57
+  - first:
+      213: 2280004209083420153
+    second: farmA_sprites_58
+  - first:
+      213: 2054852910047719175
+    second: farmA_sprites_59
+  - first:
+      213: -2341048138248708523
+    second: farmA_sprites_60
+  - first:
+      213: 8119670876845489919
+    second: farmA_sprites_61
+  - first:
+      213: 6626510914343170125
+    second: farmA_sprites_62
+  - first:
+      213: 7940012677734596107
+    second: farmA_sprites_63
+  - first:
+      213: -3844541153312164583
+    second: farmA_sprites_64
+  - first:
+      213: -2616761748033713372
+    second: farmA_sprites_65
+  - first:
+      213: 5521502947280454174
+    second: farmA_sprites_66
+  - first:
+      213: -4962727194647380767
+    second: farmA_sprites_67
+  - first:
+      213: 7077255975497752131
+    second: farmA_sprites_68
+  - first:
+      213: -6394183596425273303
+    second: farmA_sprites_69
+  - first:
+      213: -8233581169462375999
+    second: farmA_sprites_70
+  - first:
+      213: -5939431082610025654
+    second: farmA_sprites_71
+  - first:
+      213: -2651391687298168533
+    second: farmA_sprites_72
+  - first:
+      213: -1794413218282408754
+    second: farmA_sprites_73
+  - first:
+      213: 6838802944963261059
+    second: farmA_sprites_74
+  - first:
+      213: 4449303736783152168
+    second: farmA_sprites_75
+  - first:
+      213: -2641594750673468377
+    second: farmA_sprites_76
+  - first:
+      213: -6940238394261253601
+    second: farmA_sprites_77
+  - first:
+      213: -2480818271355617583
+    second: farmA_sprites_78
+  - first:
+      213: -5015045973231030299
+    second: farmA_sprites_79
+  - first:
+      213: 1943790276993944667
+    second: farmA_sprites_80
+  - first:
+      213: 9131765439573135988
+    second: farmA_sprites_81
+  - first:
+      213: 1030678625344676610
+    second: farmA_sprites_82
+  - first:
+      213: -3806003807170169269
+    second: farmA_sprites_83
+  - first:
+      213: 8205020589034263748
+    second: farmA_sprites_84
+  - first:
+      213: -561906849893024978
+    second: farmA_sprites_85
+  - first:
+      213: 613234381102237428
+    second: farmA_sprites_86
+  - first:
+      213: 6212357376568655409
+    second: farmA_sprites_87
+  - first:
+      213: 3075289043512147374
+    second: farmA_sprites_88
+  - first:
+      213: -5248329284725765336
+    second: farmA_sprites_89
+  - first:
+      213: -599908081025394878
+    second: farmA_sprites_90
+  - first:
+      213: -8848136447393737235
+    second: farmA_sprites_91
+  - first:
+      213: -5479425083641341424
+    second: farmA_sprites_92
+  - first:
+      213: -6657866017753537202
+    second: farmA_sprites_93
+  - first:
+      213: -4638472659391533843
+    second: farmA_sprites_94
+  - first:
+      213: 3644034419719627907
+    second: farmA_sprites_95
+  - first:
+      213: -3786867021410118196
+    second: farmA_sprites_96
+  - first:
+      213: 2227948882871362879
+    second: farmA_sprites_97
+  - first:
+      213: -2336296829101847941
+    second: farmA_sprites_98
+  - first:
+      213: -1163321172855998646
+    second: farmA_sprites_99
+  - first:
+      213: 5147530463638520069
+    second: farmA_sprites_100
+  - first:
+      213: 1614216333434753733
+    second: farmA_sprites_101
+  - first:
+      213: -5000960794835743947
+    second: farmA_sprites_102
+  - first:
+      213: -6630850268919858653
+    second: farmA_sprites_103
+  - first:
+      213: 2140441079581059263
+    second: farmA_sprites_104
+  - first:
+      213: 6776913101739798035
+    second: farmA_sprites_105
+  - first:
+      213: 3975832545993151569
+    second: farmA_sprites_106
+  - first:
+      213: -4586692118673780252
+    second: farmA_sprites_107
+  - first:
+      213: 2012428617426556411
+    second: farmA_sprites_108
+  - first:
+      213: 7930131105962899186
+    second: farmA_sprites_109
+  - first:
+      213: 1870970926261532526
+    second: farmA_sprites_110
+  - first:
+      213: -3877423740061696188
+    second: farmA_sprites_111
+  - first:
+      213: 4104636935233646517
+    second: farmA_sprites_112
+  - first:
+      213: 5311278138308620674
+    second: farmA_sprites_113
+  - first:
+      213: -599725879749446454
+    second: farmA_sprites_114
+  - first:
+      213: -5522944659294151736
+    second: farmA_sprites_115
+  - first:
+      213: 9008338126971261765
+    second: farmA_sprites_116
+  - first:
+      213: 6369906339468910642
+    second: farmA_sprites_117
+  - first:
+      213: 6953434447817025628
+    second: farmA_sprites_118
+  - first:
+      213: -1615345768495598314
+    second: farmA_sprites_119
+  - first:
+      213: 3396358910903934728
+    second: farmA_sprites_120
+  - first:
+      213: -3877359579905731964
+    second: farmA_sprites_121
+  - first:
+      213: -6678103351733673765
+    second: farmA_sprites_122
+  - first:
+      213: -3978667857356902222
+    second: farmA_sprites_123
+  - first:
+      213: -5837854764537509335
+    second: farmA_sprites_124
+  - first:
+      213: 6217330739707082879
+    second: farmA_sprites_125
+  - first:
+      213: -8740747706014151222
+    second: farmA_sprites_126
+  - first:
+      213: -5736710857500062146
+    second: farmA_sprites_127
+  - first:
+      213: -9061009332918772078
+    second: farmA_sprites_128
+  - first:
+      213: 785208083229406435
+    second: farmA_sprites_129
+  - first:
+      213: -5752795260252461903
+    second: farmA_sprites_130
+  - first:
+      213: -279045430532756541
+    second: farmA_sprites_131
+  - first:
+      213: -8686257833707766232
+    second: farmA_sprites_132
+  - first:
+      213: -2259041605903529594
+    second: farmA_sprites_133
+  - first:
+      213: -8822860706789797119
+    second: farmA_sprites_134
+  - first:
+      213: -3757457473910266592
+    second: farmA_sprites_135
+  - first:
+      213: 5025861947878069362
+    second: farmA_sprites_136
+  - first:
+      213: 9206564140005288445
+    second: farmA_sprites_137
+  - first:
+      213: -2537089928382563165
+    second: farmA_sprites_138
+  - first:
+      213: -1427935895940971394
+    second: farmA_sprites_139
+  - first:
+      213: 699544892184618636
+    second: farmA_sprites_140
+  - first:
+      213: 7373017994031819538
+    second: farmA_sprites_141
+  - first:
+      213: -7289712326808833451
+    second: farmA_sprites_142
+  - first:
+      213: -455091672281541570
+    second: farmA_sprites_143
+  - first:
+      213: 3370514259809830857
+    second: farmA_sprites_144
+  - first:
+      213: -1109440546365205815
+    second: farmA_sprites_145
+  - first:
+      213: 3795972593301452924
+    second: farmA_sprites_146
+  - first:
+      213: -4630792585428202834
+    second: farmA_sprites_147
+  - first:
+      213: 1086423588463790101
+    second: farmA_sprites_148
+  - first:
+      213: -8347913196611547331
+    second: farmA_sprites_149
+  - first:
+      213: 6229600563653326365
+    second: farmA_sprites_0
+  - first:
+      213: -4385363184020643142
+    second: farmA_sprites_1
+  - first:
+      213: -3927035198313683619
+    second: farmA_sprites_2
+  - first:
+      213: 2467655176168873564
+    second: farmA_sprites_3
+  - first:
+      213: 1885389860592233574
+    second: farmA_sprites_4
+  - first:
+      213: -5397419494631380300
+    second: farmA_sprites_5
+  - first:
+      213: 5034951301438516437
+    second: farmA_sprites_6
+  - first:
+      213: -5341075049855451779
+    second: farmA_sprites_7
+  - first:
+      213: -593779768107383639
+    second: farmA_sprites_8
+  - first:
+      213: -5281710401062118083
+    second: farmA_sprites_9
+  - first:
+      213: 17022774590292544
+    second: farmA_sprites_10
+  - first:
+      213: -3837534034931456554
+    second: farmA_sprites_11
+  - first:
+      213: -157660704270151263
+    second: farmA_sprites_12
+  - first:
+      213: -8748736597056098967
+    second: farmA_sprites_13
+  - first:
+      213: 1101481185227906234
+    second: farmA_sprites_14
+  - first:
+      213: -7078094835298795896
+    second: farmA_sprites_15
+  - first:
+      213: 2671222337551133095
+    second: farmA_sprites_16
+  - first:
+      213: 8727034508826004330
+    second: farmA_sprites_17
+  - first:
+      213: -2291563899473007835
+    second: farmA_sprites_18
+  - first:
+      213: -6980731506374091235
+    second: farmA_sprites_19
+  - first:
+      213: -2453230192118338102
+    second: farmA_sprites_20
+  - first:
+      213: -8480114297518961242
+    second: farmA_sprites_21
+  - first:
+      213: 5539478954050855356
+    second: farmA_sprites_22
+  - first:
+      213: 1195706097786580837
+    second: farmA_sprites_23
+  - first:
+      213: -351194569436515271
+    second: farmA_sprites_24
+  - first:
+      213: 8365374308322455946
+    second: farmA_sprites_25
+  - first:
+      213: -3262143741520040378
+    second: farmA_sprites_26
+  - first:
+      213: 4302298459495824372
+    second: farmA_sprites_27
+  - first:
+      213: -3799080116403507166
+    second: farmA_sprites_28
+  - first:
+      213: 4175997294137833781
+    second: farmA_sprites_29
+  - first:
+      213: -3890552289350134567
+    second: farmA_sprites_30
+  - first:
+      213: -5644227380562380124
+    second: farmA_sprites_31
+  - first:
+      213: -8835599793199472382
+    second: farmA_sprites_32
+  - first:
+      213: 2384831737810110201
+    second: farmA_sprites_33
+  - first:
+      213: -4670316027233604764
+    second: farmA_sprites_34
+  - first:
+      213: 4867709937725788878
+    second: farmA_sprites_35
+  - first:
+      213: -4884762025499465263
+    second: farmA_sprites_36
+  - first:
+      213: 8001458878703821392
+    second: farmA_sprites_37
+  - first:
+      213: 104399405864996833
+    second: farmA_sprites_38
+  - first:
+      213: 9083802038121054850
+    second: farmA_sprites_39
+  - first:
+      213: -1134568866766505659
+    second: farmA_sprites_40
+  - first:
+      213: -2206376393208320204
+    second: farmA_sprites_41
+  - first:
+      213: 5850418406840965263
+    second: farmA_sprites_42
+  - first:
+      213: 1636545511379288026
+    second: farmA_sprites_43
+  - first:
+      213: -913906801191129659
+    second: farmA_sprites_44
+  - first:
+      213: -4824341570274278350
+    second: farmA_sprites_45
+  - first:
+      213: -6110878205753031977
+    second: farmA_sprites_46
+  - first:
+      213: -461433212181271631
+    second: farmA_sprites_47
+  - first:
+      213: -7337503049031298584
+    second: farmA_sprites_48
+  - first:
+      213: -8686188344052781632
+    second: farmA_sprites_49
+  - first:
+      213: 1690715764220792777
+    second: farmA_sprites_50
+  - first:
+      213: -8940034636067497477
+    second: farmA_sprites_51
+  - first:
+      213: 4816241017282559428
+    second: farmA_sprites_52
+  - first:
+      213: -9015914838100432232
+    second: farmA_sprites_53
+  - first:
+      213: 7618907983122177472
+    second: farmA_sprites_54
+  - first:
+      213: -7884941424284143022
+    second: farmA_sprites_55
+  - first:
+      213: 913983825179587467
+    second: farmA_sprites_56
+  - first:
+      213: -4383751120678221072
+    second: farmA_sprites_57
+  - first:
+      213: 7287721524360898707
+    second: farmA_sprites_58
+  - first:
+      213: -2374416486314110128
+    second: farmA_sprites_59
+  - first:
+      213: -2678578712565154733
+    second: farmA_sprites_60
+  - first:
+      213: 8269472113089139675
+    second: farmA_sprites_61
+  - first:
+      213: -8846926364177779386
+    second: farmA_sprites_62
+  - first:
+      213: 2870519811201300858
+    second: farmA_sprites_63
+  - first:
+      213: -3050793651536647874
+    second: farmA_sprites_64
+  - first:
+      213: -6562284390970613803
+    second: farmA_sprites_65
+  - first:
+      213: 7840773358852139019
+    second: farmA_sprites_66
+  - first:
+      213: 8835862642478549873
+    second: farmA_sprites_67
+  - first:
+      213: 5089691306911047907
+    second: farmA_sprites_68
+  - first:
+      213: 8585806386632601096
+    second: farmA_sprites_69
+  - first:
+      213: 213346202314595538
+    second: farmA_sprites_70
+  - first:
+      213: 6371396082463094480
+    second: farmA_sprites_71
+  - first:
+      213: 7958082573218960463
+    second: farmA_sprites_72
+  - first:
+      213: -4589631668053893337
+    second: farmA_sprites_73
+  - first:
+      213: 7731333231168514549
+    second: farmA_sprites_74
+  - first:
+      213: -788572506649272781
+    second: farmA_sprites_75
+  - first:
+      213: 7949363246781020837
+    second: farmA_sprites_76
+  - first:
+      213: -8380332083741688306
+    second: farmA_sprites_77
+  - first:
+      213: 2337958248570560618
+    second: farmA_sprites_78
+  - first:
+      213: -6210196208721084295
+    second: farmA_sprites_79
+  - first:
+      213: 3915836037814211919
+    second: farmA_sprites_80
+  - first:
+      213: 4223386376927508685
+    second: farmA_sprites_81
+  - first:
+      213: 6238705347829445984
+    second: farmA_sprites_82
+  - first:
+      213: 8209255291179534064
+    second: farmA_sprites_83
+  - first:
+      213: -2458273003190922129
+    second: farmA_sprites_84
+  - first:
+      213: -8270355075786462396
+    second: farmA_sprites_85
+  - first:
+      213: -8152504580471082746
+    second: farmA_sprites_86
+  - first:
+      213: -7499339358536269517
+    second: farmA_sprites_87
+  - first:
+      213: 7863643472267291192
+    second: farmA_sprites_88
+  - first:
+      213: -8823154585909519891
+    second: farmA_sprites_89
+  - first:
+      213: -1328539843834850385
+    second: farmA_sprites_90
+  - first:
+      213: -4868828918501603153
+    second: farmA_sprites_91
+  - first:
+      213: 6806703069145125959
+    second: farmA_sprites_92
+  - first:
+      213: -2335009675846585251
+    second: farmA_sprites_93
+  - first:
+      213: 970427131755348326
+    second: farmA_sprites_94
+  - first:
+      213: 5650021903846353411
+    second: farmA_sprites_95
+  - first:
+      213: -6514830518813303366
+    second: farmA_sprites_96
+  - first:
+      213: -7642408313485860351
+    second: farmA_sprites_97
+  - first:
+      213: 5243747784854872674
+    second: farmA_sprites_98
+  - first:
+      213: -8801488644937192205
+    second: farmA_sprites_99
+  - first:
+      213: -4138591350708535540
+    second: farmA_sprites_100
+  - first:
+      213: -5197686589977278419
+    second: farmA_sprites_101
+  - first:
+      213: -6250383650744977155
+    second: farmA_sprites_102
+  - first:
+      213: -323669097474974878
+    second: farmA_sprites_103
+  - first:
+      213: -5604425532835445098
+    second: farmA_sprites_104
+  - first:
+      213: 7340473405977065024
+    second: farmA_sprites_105
+  - first:
+      213: 5828611787250354659
+    second: farmA_sprites_106
+  - first:
+      213: -467938541720160091
+    second: farmA_sprites_107
+  - first:
+      213: -2818426584920604716
+    second: farmA_sprites_108
+  - first:
+      213: 839965717161158580
+    second: farmA_sprites_109
+  - first:
+      213: 7682380628758684343
+    second: farmA_sprites_110
+  - first:
+      213: 2180511223238814015
+    second: farmA_sprites_111
+  - first:
+      213: 7250294130209823662
+    second: farmA_sprites_112
+  - first:
+      213: -8072085814084486011
+    second: farmA_sprites_113
+  - first:
+      213: 500470836854298687
+    second: farmA_sprites_114
+  - first:
+      213: 551619772933832089
+    second: farmA_sprites_115
+  - first:
+      213: -7696497290909705441
+    second: farmA_sprites_116
+  - first:
+      213: -1831914718833161098
+    second: farmA_sprites_117
+  - first:
+      213: -8277803866652876723
+    second: farmA_sprites_118
+  - first:
+      213: -7674826625993125722
+    second: farmA_sprites_119
+  - first:
+      213: 4089994363326084130
+    second: farmA_sprites_120
+  - first:
+      213: 3444667567077605304
+    second: farmA_sprites_121
+  - first:
+      213: -605121902382221783
+    second: farmA_sprites_122
+  - first:
+      213: -8170034455587266459
+    second: farmA_sprites_123
+  - first:
+      213: -9055797295441819974
+    second: farmA_sprites_124
+  - first:
+      213: -8026097599758290969
+    second: farmA_sprites_125
+  - first:
+      213: 3853042702229989210
+    second: farmA_sprites_126
+  - first:
+      213: -2072943142558184902
+    second: farmA_sprites_127
+  - first:
+      213: 3964294442483474071
+    second: farmA_sprites_128
+  - first:
+      213: -789018869752894984
+    second: farmA_sprites_129
+  - first:
+      213: 3940580548124855421
+    second: farmA_sprites_130
+  - first:
+      213: -989840745210710371
+    second: farmA_sprites_131
+  - first:
+      213: 2945727671328751186
+    second: farmA_sprites_132
+  - first:
+      213: 7449423683778424873
+    second: farmA_sprites_133
+  - first:
+      213: 2854308209695657318
+    second: farmA_sprites_134
+  - first:
+      213: 305042774606016601
+    second: farmA_sprites_135
+  - first:
+      213: -4174759535001890362
+    second: farmA_sprites_136
+  - first:
+      213: -7189313767816619705
+    second: farmA_sprites_137
+  - first:
+      213: 9155815679980462728
+    second: farmA_sprites_138
+  - first:
+      213: 7861633382237535339
+    second: farmA_sprites_139
+  - first:
+      213: 6505556828479881332
+    second: farmA_sprites_140
+  - first:
+      213: -8593275060527618090
+    second: farmA_sprites_141
+  - first:
+      213: -6286547812559502040
+    second: farmA_sprites_142
+  - first:
+      213: -578424394837355344
+    second: farmA_sprites_143
+  - first:
+      213: -3854137192424653840
+    second: farmA_sprites_144
+  - first:
+      213: -7582680844138485872
+    second: farmA_sprites_145
+  - first:
+      213: 1981263393810884446
+    second: farmA_sprites_146
+  - first:
+      213: 9147690511609367561
+    second: farmA_sprites_147
+  - first:
+      213: 7068626664934425554
+    second: farmA_sprites_148
+  - first:
+      213: -646072643997549057
+    second: farmA_sprites_149
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmA_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d163121f4bcf37650800000000000000
+      internalID: 6229600563653326365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 482
+        width: 110
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2af553b6f0423c0800000000000000
+      internalID: -4385363184020643142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 484
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ae002b4e5089c0800000000000000
+      internalID: -3927035198313683619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 482
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e13bbfe4fde3220800000000000000
+      internalID: 2467655176168873564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 482
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c29b7c6104a2a10800000000000000
+      internalID: 1885389860592233574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 482
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba6abef0938815b0800000000000000
+      internalID: -5397419494631380300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 482
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc22a7488dbfd540800000000000000
+      internalID: 5034951301438516437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 482
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7df9a65a80b0e5b0800000000000000
+      internalID: -5341075049855451779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 482
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a44527627872c7f0800000000000000
+      internalID: -593779768107383639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 480
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dd43abf5893b6b0800000000000000
+      internalID: -5281710401062118083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 454
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042cb809f1a7c3000800000000000000
+      internalID: 17022774590292544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 454
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5607a90275ebac0800000000000000
+      internalID: -3837534034931456554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 454
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a190febc60efcdf0800000000000000
+      internalID: -157660704270151263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 454
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de203fa6e369680800000000000000
+      internalID: -8748736597056098967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 458
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc19445d4f394f00800000000000000
+      internalID: 1101481185227906234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 454
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88efc77af3e85cd90800000000000000
+      internalID: -7078094835298795896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 452
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e2d13096121520800000000000000
+      internalID: 2671222337551133095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 448
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b4621e5a7ac1970800000000000000
+      internalID: 8727034508826004330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 418
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6dcf46cab230e0800000000000000
+      internalID: -2291563899473007835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 418
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed1323ea57f1f90800000000000000
+      internalID: -6980731506374091235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 418
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acde586532064fdd0800000000000000
+      internalID: -2453230192118338102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 418
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adcba9d9f4905a80800000000000000
+      internalID: -8480114297518961242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 420
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb124f062ce20ec40800000000000000
+      internalID: 5539478954050855356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 420
+        width: 18
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f665e5c50089010800000000000000
+      internalID: 1195706097786580837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 420
+        width: 20
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934b0b9566e402bf0800000000000000
+      internalID: -351194569436515271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 418
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a813dbc9c97c71470800000000000000
+      internalID: 8365374308322455946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 386
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e2f68fc898ab2d0800000000000000
+      internalID: -3262143741520040378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 386
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb75f387a5d4bb30800000000000000
+      internalID: 4302298459495824372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 386
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f48433c4f64bc0800000000000000
+      internalID: -3799080116403507166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 386
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539f314e96f14f930800000000000000
+      internalID: 4175997294137833781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 386
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4d33d4e4bf10ac0800000000000000
+      internalID: -3890552289350134567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 386
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aabb0e0a1daba1b0800000000000000
+      internalID: -5644227380562380124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 386
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a4d41dc4a16580800000000000000
+      internalID: -8835599793199472382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 386
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cf3584df981120800000000000000
+      internalID: 2384831737810110201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 354
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6def4154bf2fb0800000000000000
+      internalID: -4670316027233604764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 354
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2d8cbe5649d8340800000000000000
+      internalID: 4867709937725788878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 354
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d969c181d6d53cb0800000000000000
+      internalID: -4884762025499465263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 352
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526906e474ea0f60800000000000000
+      internalID: 8001458878703821392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 358
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef485dd4b6e27100800000000000000
+      internalID: 104399405864996833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 358
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282cc2c53d5201e70800000000000000
+      internalID: 9083802038121054850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 356
+        width: 30
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5493a2b70a33140f0800000000000000
+      internalID: -1134568866766505659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 354
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fa20a3c506161e0800000000000000
+      internalID: -2206376393208320204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 326
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88992f4b8cd03150800000000000000
+      internalID: 5850418406840965263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 326
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfb588c87d26b610800000000000000
+      internalID: 1636545511379288026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 322
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd603d3b962153f0800000000000000
+      internalID: -913906801191129659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 322
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234c6acf6ee7c0db0800000000000000
+      internalID: -4824341570274278350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 326
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d20a6016acc13ba0800000000000000
+      internalID: -6110878205753031977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 326
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb2e5430f8a899f0800000000000000
+      internalID: -461433212181271631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 326
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d4284ad3fb2a90800000000000000
+      internalID: -7337503049031298584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 322
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd6894f8b5747780800000000000000
+      internalID: -8686188344052781632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 296
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf888e9701a67710800000000000000
+      internalID: 1690715764220792777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf912856ddd9ee380800000000000000
+      internalID: -8940034636067497477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 296
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdfacb00b9b6d240800000000000000
+      internalID: 4816241017282559428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 294
+        width: 30
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aa9dd193901e280800000000000000
+      internalID: -9015914838100432232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 292
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9266a17ccbb960800000000000000
+      internalID: 7618907983122177472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 292
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252f7c20d8f039290800000000000000
+      internalID: -7884941424284143022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 294
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83384e427f1fac00800000000000000
+      internalID: 913983825179587467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 290
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0144f499c923c0800000000000000
+      internalID: -4383751120678221072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 260
+        width: 14
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ef794d10332560800000000000000
+      internalID: 7287721524360898707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 258
+        width: 44
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539a6039c06c0fd0800000000000000
+      internalID: -2374416486314110128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 60
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c71a64ad6c3dad0800000000000000
+      internalID: -2678578712565154733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 260
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd35da4c21113c270800000000000000
+      internalID: 8269472113089139675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 258
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64535254857693580800000000000000
+      internalID: -8846926364177779386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 258
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79ff534f8226d720800000000000000
+      internalID: 2870519811201300858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 266
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392425765769a5d0800000000000000
+      internalID: -3050793651536647874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 264
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1b196d151ee4a0800000000000000
+      internalID: -6562284390970613803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 266
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b086ab2e3d500dc60800000000000000
+      internalID: 7840773358852139019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 258
+        width: 60
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b0419424a4f9a70800000000000000
+      internalID: 8835862642478549873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0a3dcf64732a640800000000000000
+      internalID: 5089691306911047907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 262
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e24894b69e62770800000000000000
+      internalID: 8585806386632601096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 262
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcd32b9d35f5f200800000000000000
+      internalID: 213346202314595538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 228
+        width: 50
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6378adafebb6850800000000000000
+      internalID: 6371396082463094480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 240
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4451f5cfe9c07e60800000000000000
+      internalID: 7958082573218960463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 230
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f93c7905a5e40c0800000000000000
+      internalID: -4589631668053893337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 204
+        width: 60
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9e8f38c963b4b60800000000000000
+      internalID: 7731333231168514549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 196
+        width: 64
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ed785bb7d6e05f0800000000000000
+      internalID: -788572506649272781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 196
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aabde261cfc15e60800000000000000
+      internalID: 7949363246781020837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 194
+        width: 44
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e74c8ee5413bb80800000000000000
+      internalID: -8380332083741688306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 194
+        width: 64
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a602eb9d3a8127020800000000000000
+      internalID: 2337958248570560618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 228
+        width: 18
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970c3b18373f0d9a0800000000000000
+      internalID: -6210196208721084295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 198
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45d6902128d75630800000000000000
+      internalID: 3915836037814211919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 192
+        width: 50
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8fcf9888b7c9a30800000000000000
+      internalID: 4223386376927508685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 206
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06534b3b575549650800000000000000
+      internalID: 6238705347829445984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6804d51322de170800000000000000
+      internalID: 8209255291179534064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 196
+        width: 32
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f645fd36ab572edd0800000000000000
+      internalID: -2458273003190922129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 200
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b266570ebc93d80800000000000000
+      internalID: -8270355075786462396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 198
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601b643274c7cde80800000000000000
+      internalID: -8152504580471082746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 200
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331075c269efce790800000000000000
+      internalID: -7499339358536269517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 196
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aafcc1316412d60800000000000000
+      internalID: 7863643472267291192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 56
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de91184b6abdd8580800000000000000
+      internalID: -8823154585909519891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 178
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3554a0d04109de0800000000000000
+      internalID: -1328539843834850385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 134
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8009015e17e6cb0800000000000000
+      internalID: -4868828918501603153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 134
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744d4ffb064467e50800000000000000
+      internalID: 6806703069145125959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 134
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54701c3211689fd0800000000000000
+      internalID: -2335009675846585251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 132
+        width: 48
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661cda4b556a77d00800000000000000
+      internalID: 970427131755348326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 132
+        width: 30
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a20f78cf8e86e40800000000000000
+      internalID: 5650021903846353411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 130
+        width: 30
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd5242092ca695a0800000000000000
+      internalID: -6514830518813303366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 168
+        width: 18
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102ee2e4126b0f590800000000000000
+      internalID: -7642408313485860351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 134
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2622408e3d885c840800000000000000
+      internalID: 5243747784854872674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 134
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc62efa5b4dad580800000000000000
+      internalID: -8801488644937192205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 134
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f738ef715c096c0800000000000000
+      internalID: -4138591350708535540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 134
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c79eb59b1ed7b0800000000000000
+      internalID: -5197686589977278419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8bf638f2d2249a0800000000000000
+      internalID: -6250383650744977155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b9b34bba8128bf0800000000000000
+      internalID: -323669097474974878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 100
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c631eba41932b0800000000000000
+      internalID: -5604425532835445098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f676dba99ed560800000000000000
+      internalID: 7340473405977065024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 78
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e946b80a8363e050800000000000000
+      internalID: 5828611787250354659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 86
+        width: 22
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a83e04206c8189f0800000000000000
+      internalID: -467938541720160091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 68
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df3a4424ffe2e8d0800000000000000
+      internalID: -2818426584920604716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 106
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a5e29e5828ab00800000000000000
+      internalID: 839965717161158580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 102
+        width: 18
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e0869a7c4d9a60800000000000000
+      internalID: 7682380628758684343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 100
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e6e9976bb24e10800000000000000
+      internalID: 2180511223238814015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 102
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab914409183e9460800000000000000
+      internalID: 7250294130209823662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 104
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c360748b03aff80800000000000000
+      internalID: -8072085814084486011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 106
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f389423139702f600800000000000000
+      internalID: 500470836854298687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 102
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7dc8c24fb7a700800000000000000
+      internalID: 551619772933832089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 104
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b1290ed7c803590800000000000000
+      internalID: -7696497290909705441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cc325e44bb396e0800000000000000
+      internalID: -1831914718833161098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 68
+        width: 18
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40eccfad355f1d80800000000000000
+      internalID: -8277803866652876723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 68
+        width: 18
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a058fcb8d98d7590800000000000000
+      internalID: -7674826625993125722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 66
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b667243492c830800000000000000
+      internalID: 4089994363326084130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf38f0d6eaedcf20800000000000000
+      internalID: 3444667567077605304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 70
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926f2baf5dc2a97f0800000000000000
+      internalID: -605121902382221783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 66
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e40803f43e9e80800000000000000
+      internalID: -8170034455587266459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 68
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64f37e658535280800000000000000
+      internalID: -9055797295441819974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 72
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efaac1d1c29d9090800000000000000
+      internalID: -8026097599758290969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 78
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5764d26ce1c87530800000000000000
+      internalID: 3853042702229989210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 72
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3acc3cd13d6b33e0800000000000000
+      internalID: -2072943142558184902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 74
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e584daac0040730800000000000000
+      internalID: 3964294442483474071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 70
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f96c43b487dc05f0800000000000000
+      internalID: -789018869752894984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 72
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ccbc36121cfa630800000000000000
+      internalID: 3940580548124855421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 88
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96f18d26116342f0800000000000000
+      internalID: -989840745210710371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 156
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eb69eb5b351e820800000000000000
+      internalID: 2945727671328751186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 42
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920bef42f5ba16760800000000000000
+      internalID: 7449423683778424873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 36
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d0466a13a8c9720800000000000000
+      internalID: 2854308209695657318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 38
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f0bd89cabb3400800000000000000
+      internalID: 305042774606016601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 44
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1998d52564016c0800000000000000
+      internalID: -4174759535001890362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 38
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7491772083d6a3c90800000000000000
+      internalID: -7189313767816619705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 40
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882ef22f9ddff0f70800000000000000
+      internalID: 9155815679980462728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 42
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cfe9e88e12a1d60800000000000000
+      internalID: 7861633382237535339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 38
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47009a3b771684a50800000000000000
+      internalID: 6505556828479881332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 40
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d727009cdd8eb880800000000000000
+      internalID: -8593275060527618090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825c1e07212b1c8a0800000000000000
+      internalID: -6286547812559502040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 4
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b49c48d31609f7f0800000000000000
+      internalID: -578424394837355344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 10
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb38e1c4aa538ac0800000000000000
+      internalID: -3854137192424653840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 10
+        width: 20
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09767ff62f7e4c690800000000000000
+      internalID: -7582680844138485872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 8
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57259a3f8cde7b10800000000000000
+      internalID: 1981263393810884446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 10
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c00b3cd0023fe70800000000000000
+      internalID: 9147690511609367561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6
+        width: 24
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d34545208ec81260800000000000000
+      internalID: 7068626664934425554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmA_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 8
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdbd637a50b807f0800000000000000
+      internalID: -646072643997549057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -65,10 +65,7 @@ public class PassiveAnimalController : MonoBehaviour
 			float distanceToTarget = Vector3.Distance(transform.position, this.targetPosition);
 
 			if (distanceToTarget < 1) {
-				this.isMoving = false;
-				this.canMove = false;
-				StartCoroutine(offCooldown());
-				this.anim.SetFloat("speed", 0);
+				this.stopMoveAndWait();
 			}
 
 		} else if (this.canMove) {
@@ -85,6 +82,17 @@ public class PassiveAnimalController : MonoBehaviour
 	IEnumerator offCooldown(){
 		yield return new WaitForSeconds(moveCooldown);
 		this.canMove = true;
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+		this.stopMoveAndWait();
+	}
+
+	private void stopMoveAndWait(){
+		this.isMoving = false;
+		this.canMove = false;
+		StartCoroutine(offCooldown());
+		this.anim.SetFloat("speed", 0);
 	}
 
 	void OnDrawGizmosSelected()

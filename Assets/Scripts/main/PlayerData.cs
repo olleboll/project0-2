@@ -13,7 +13,9 @@ public class PlayerData : MonoBehaviour
 		dash,
 		megaDash,
 		medallion,
+		sickle,
 	}
+	public bool hasSickle = false;
 	public bool hasMedallion = false;
 	public bool hasDash = false;
 	public bool hasMegaDash = false;
@@ -48,6 +50,9 @@ public class PlayerData : MonoBehaviour
 		if (ability == Ability.medallion) {
 			this.hasMedallion = true;
 		}
+		if (ability == Ability.sickle) {
+			this.hasSickle = true;
+		}
 	}
 
 	public bool hasAbility(Ability ability){
@@ -57,8 +62,8 @@ public class PlayerData : MonoBehaviour
 		if (ability == Ability.megaDash) {
 			return this.hasMegaDash;
 		}
-		if (ability == Ability.medallion) {
-			return this.hasMedallion;
+		if (ability == Ability.sickle) {
+			return this.hasSickle;
 		}
 		return false;
 	}

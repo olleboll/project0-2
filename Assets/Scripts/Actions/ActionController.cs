@@ -6,7 +6,7 @@ using UnityEngine;
 public class ActionController : MonoBehaviour
 {
 	public bool useInput = true;
-	public bool isRunningActionAnimation;
+	public bool isRunningActionAnimation = false;
 
 	private Animator anim;
 	private PlayerInputController input;
@@ -17,8 +17,6 @@ public class ActionController : MonoBehaviour
 	{
 		this.input = Object.FindObjectOfType<PlayerInputController>();
 		this.anim = transform.parent.gameObject.GetComponent<Animator>();
-		Debug.Log(this.input);
-		Debug.Log(this.anim);
 	}
 
 	void Start(){
@@ -30,6 +28,7 @@ public class ActionController : MonoBehaviour
 	{
 		if (this.anim.GetBool("actionAnimation") != this.isRunningActionAnimation) {
 			this.anim.SetBool("actionAnimation", this.isRunningActionAnimation);
+			this.furtherActions();
 		}
 
 		if (this.useInput && this.input.action && this.actionAble && !this.actionCooldown) {
@@ -52,10 +51,13 @@ public class ActionController : MonoBehaviour
 		}
 
 		Debug.Log("TOGGLED");
-
 		this.isRunningActionAnimation = !this.isRunningActionAnimation;
 		this.anim.SetBool("actionAnimation", this.isRunningActionAnimation);
 		this.furtherActions();
+	}
+
+	public virtual void setActionAnimation(bool on) {
+		this.isRunningActionAnimation = on;
 	}
 
 	public virtual void furtherActions(){
@@ -63,7 +65,6 @@ public class ActionController : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other){
 		this.actionAble = true;
-		Debug.Log("Is colliding");
 	}
 
 	void OnTriggerExit2D(Collider2D other){

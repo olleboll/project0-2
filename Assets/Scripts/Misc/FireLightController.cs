@@ -63,10 +63,14 @@ public class FireLightController : MonoBehaviour
 
 	public void toggleLight(){
 		this.lit = !this.lit;
-		this.light.enabled = this.lit;
+		if (this.light != null) {
+			this.light.enabled = this.lit;
+		}
 	}
 	public void toggleLight(bool shouldbeOn){
 		this.lit = shouldbeOn;
-		this.light.enabled = this.lit;
+		if (this.light != null) {
+			this.light.enabled = this.lit;
+		}
 	}
 }

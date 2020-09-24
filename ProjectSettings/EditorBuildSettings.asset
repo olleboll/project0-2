@@ -23,10 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/abisko.unity
     guid: 7ae05c6b1f086f041ac2067756c656e1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/dungeon_1/dungeon_1_Elyn.unity
     guid: 8a429b3ec78496740a2054743c002e87
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/dungeon_1/dungeon_1_Brittania.unity
     guid: 1b9620eb5cf23e14ab7274d3b024cc5a
   m_configObjects: {}

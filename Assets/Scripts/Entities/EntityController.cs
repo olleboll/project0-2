@@ -8,6 +8,7 @@ public abstract class EntityController : MonoBehaviour
 	public int currentHealth = 0;
 
 	public virtual void takeDamage(int damage){
+		Debug.Log(this.name + " Took damage!!");
 		this.currentHealth -= damage;
 		if (this.currentHealth <= 0) {
 			Destroy(gameObject);
