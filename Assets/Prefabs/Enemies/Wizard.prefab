@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2148693388322583157}
   - component: {fileID: 2148693388322583156}
   - component: {fileID: 2054922908678617981}
-  - component: {fileID: 9086708805481005606}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -53,6 +52,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -196,22 +196,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2148693388322583155}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f656f68b757b12489b68e53ea983bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 40
   currentHealth: 40
---- !u!114 &9086708805481005606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2148693388322583155}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd163a30181e4c945845e19bec3070b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  damageTakenEffect: {fileID: 5861248130106925199, guid: f9c909eb77ea6be4fb335da0aed60ea1,
+    type: 3}
+  deathEffect: {fileID: 6373456047110906226, guid: 28b19c89a15ec4749b87f36950c0f64d,
+    type: 3}

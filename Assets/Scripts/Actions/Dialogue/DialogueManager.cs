@@ -6,10 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-
-
 	private Queue<string> sentences;
-
 
 	private Text nameField;
 	private Text sentenceField;
@@ -27,10 +24,12 @@ public class DialogueManager : MonoBehaviour
 	}
 
 	void onSceneStart(){
-		this.dialogueWindow = GameObject.Find("UI").transform.Find("Dialogue").gameObject;
-		this.nameField = this.dialogueWindow.transform.Find("title").GetComponent<Text>();
-		this.sentenceField = this.dialogueWindow.transform.Find("sentence").GetComponent<Text>();
-		this.dialogueWindow.SetActive(false);
+		if (GameObject.Find("UI") != null) {
+			this.dialogueWindow = GameObject.Find("UI").transform.Find("Dialogue").gameObject;
+			this.nameField = this.dialogueWindow.transform.Find("title").GetComponent<Text>();
+			this.sentenceField = this.dialogueWindow.transform.Find("sentence").GetComponent<Text>();
+			this.dialogueWindow.SetActive(false);
+		}
 
 	}
 

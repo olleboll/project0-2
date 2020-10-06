@@ -105,11 +105,11 @@ public class PlayerMovementController : EntityController
 			return;
 		}
 		// This si basically the die function.. TODO
-		if (this.currentHealth <= 0) {
-			this.currentHealth = 1000;
-			SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
-			return;
-		}
+		// if (this.currentHealth <= 0) {
+		// 	this.currentHealth = 1000;
+		// 	SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+		// 	return;
+		// }
 
 		if (!this.dashController.isDashing && !this.megaDashController.isDashing && !this.isAiming) {
 			this.handleMovement();

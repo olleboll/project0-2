@@ -9,16 +9,21 @@ public class PlayerData : MonoBehaviour
 	// Has access to Nomal Arrows? Dash? Double dash!?
 	// Mostly a bunch of getters and setters
 	// This should probably be set when we load our save
+
 	public enum Ability {
 		dash,
 		megaDash,
 		medallion,
 		sickle,
+		assistant,
 	}
 	public bool hasSickle = false;
 	public bool hasMedallion = false;
 	public bool hasDash = false;
 	public bool hasMegaDash = false;
+	public bool hasAssistant = false;
+	public int playerHealth;
+	public int playerMaxHealth;
 
 	// This is bad.
 	// This cannot be hardcoded.
@@ -53,6 +58,9 @@ public class PlayerData : MonoBehaviour
 		if (ability == Ability.sickle) {
 			this.hasSickle = true;
 		}
+		if (ability == Ability.assistant) {
+			this.hasAssistant = true;
+		}
 	}
 
 	public bool hasAbility(Ability ability){
@@ -64,6 +72,9 @@ public class PlayerData : MonoBehaviour
 		}
 		if (ability == Ability.sickle) {
 			return this.hasSickle;
+		}
+		if (ability == Ability.assistant) {
+			return this.hasAssistant;
 		}
 		return false;
 	}

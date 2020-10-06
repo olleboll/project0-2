@@ -37,7 +37,6 @@ public class DashController : MonoBehaviour
 			return;
 		}
 		Vector2 nextStep = this.direction * this.speed * Time.fixedDeltaTime;
-
 		Vector2 newPosition = this.body.position;
 
 		if (this.distanceTraveled + nextStep.magnitude >= this.distance) {

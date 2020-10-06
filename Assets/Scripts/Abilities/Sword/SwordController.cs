@@ -108,7 +108,6 @@ public class SwordController : MonoBehaviour
 	private void returnSword(){
 		// Implement a way to send the sword back to the player
 		// In a nice arc.
-
 	}
 
 	public bool isSwinging(){
@@ -130,15 +129,15 @@ public class SwordController : MonoBehaviour
 
 		for (int i =0; i < nrOfHits; i++) {
 			Collider2D hit = hits[i];
-			if (hit.GetComponent<EntityController>() != null && hit.gameObject != this.owner) {
-
-				hit.GetComponent<EntityController>().takeDamage(this.damage);
-
+			if (hit.GetComponent<HealthPoints>() != null && hit.gameObject != this.owner) {
 				Vector3 bloodDirection = hit.gameObject.transform.position - this.owner.transform.position;
 
-				float angle = ( Mathf.Atan2( bloodDirection.y,  bloodDirection.x) + Mathf.PI/2 ) * Mathf.Rad2Deg;
-				Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-				GameObject blood = Instantiate(hitEffect, hit.transform.position, rotation);
+				hit.GetComponent<HealthPoints>().takeDamage(this.damage, bloodDirection);
+
+				//
+				// float angle = ( Mathf.Atan2( bloodDirection.y,  bloodDirection.x) + Mathf.PI/2 ) * Mathf.Rad2Deg;
+				// Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+				// GameObject blood = Instantiate(hitEffect, hit.transform.position, rotation);
 			} else if (hit.GetComponent<TriggerActionController>() != null) {
 				hit.GetComponent<TriggerActionController>().triggerAction(transform.parent.gameObject, gameObject);
 			}

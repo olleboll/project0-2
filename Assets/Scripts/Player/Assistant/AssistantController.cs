@@ -25,7 +25,7 @@ public class AssistantController : MonoBehaviour
 		this.playerData = Object.FindObjectOfType<PlayerData>();
 
 		Vector3 startPosition = this.playerData.GetLastUniversePosition();
-		if (startPosition.x > -999f) {
+		if (startPosition != this.playerData.defaultPlayerSpawn) {
 			transform.position = startPosition;
 		}
 	}
@@ -33,6 +33,13 @@ public class AssistantController : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		if (!this.playerData.hasAssistant && this.gameObject.activeSelf) {
+			this.gameObject.SetActive(false);
+			return;
+		} else if (this.playerData.hasAssistant && !this.gameObject.activeSelf) {
+			this.gameObject.SetActive(true);
+			return;
+		}
 		if (this.state == "follow") {
 			this.followMaster();
 		}

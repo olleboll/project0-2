@@ -11,6 +11,8 @@ public class PlayerInputController : MonoBehaviour
 	public Vector3 swordDirection;
 
 	public bool attack;
+	public bool attack1;
+	public bool attack2;
 	public bool dash;
 	public bool aimThrow;
 	public bool teleport;
@@ -41,6 +43,8 @@ public class PlayerInputController : MonoBehaviour
 			this.aimDirection.Normalize();
 
 			this.attack = gamepad.buttonWest.wasPressedThisFrame;
+			this.attack1 = gamepad.buttonWest.wasPressedThisFrame;
+			this.attack2 = gamepad.buttonNorth.wasPressedThisFrame;
 			this.dash = gamepad.buttonSouth.wasPressedThisFrame;
 			this.teleport = gamepad.rightTrigger.isPressed;
 			this.action = gamepad.buttonEast.isPressed;

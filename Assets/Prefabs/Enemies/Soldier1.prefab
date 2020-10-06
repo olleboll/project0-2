@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2307166489293817576}
   - component: {fileID: -3248389316037663798}
   - component: {fileID: -436162532499688376}
+  - component: {fileID: 2104695443}
+  - component: {fileID: 2104695450}
   m_Layer: 0
   m_Name: Soldier1
   m_TagString: Untagged
@@ -51,6 +53,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -170,6 +173,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2104695443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307166489293817577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f656f68b757b12489b68e53ea983bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 60
+  currentHealth: 60
+  damageTakenEffect: {fileID: 5861248130106925199, guid: f9c909eb77ea6be4fb335da0aed60ea1,
+    type: 3}
+  deathEffect: {fileID: 6373456047110906226, guid: 28b19c89a15ec4749b87f36950c0f64d,
+    type: 3}
+--- !u!114 &2104695450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307166489293817577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d084d83aaa0f6fa4e82566cb8b1c5563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5426562131531415043
 PrefabInstance:
   m_ObjectHideFlags: 0

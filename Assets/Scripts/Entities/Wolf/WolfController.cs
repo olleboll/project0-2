@@ -140,7 +140,7 @@ public class WolfController : EntityController
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject == this.targetEntity) {
-			this.targetEntity.GetComponent<EntityController>().takeDamage(this.attackDamage);
+			//this.targetEntity.GetComponent<EntityController>().takeDamage(this.attackDamage);
 		}
 	}
 

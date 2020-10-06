@@ -19,6 +19,7 @@ public class SimpleEnemyController : EntityController
 	State state = State.Idle;
 	Animator anim;
 	Rigidbody2D rigidBody;
+	private ExternalForces forces;
 
 	void Start()
 	{
@@ -29,6 +30,7 @@ public class SimpleEnemyController : EntityController
 			targetEntity = GameObject.Find("Player");
 		}
 		this.swordController = GetComponentInChildren<SwordController>();
+		this.forces = GetComponent<ExternalForces>();
 	}
 
 	void Update()
@@ -59,7 +61,6 @@ public class SimpleEnemyController : EntityController
 		float distanceToTarget = Vector3.Distance(targetEntity.transform.position, transform.position);
 
 		if (distanceToTarget < 2) {
-			Debug.Log(distanceToTarget);
 			alterState(State.Attack);
 			return;
 		}else if (distanceToTarget > 10) {
@@ -72,8 +73,10 @@ public class SimpleEnemyController : EntityController
 		anim.SetFloat("speed", targetDirection.magnitude);
 		anim.SetFloat("dirX", targetDirection.x);
 		anim.SetFloat("dirY", targetDirection.y);
-		Vector3 newPosition = transform.position + targetDirection * speed * Time.deltaTime;
-		transform.position = newPosition;
+		if (this.forces.canMove()) {
+			Vector3 newPosition = transform.position + targetDirection * speed * Time.deltaTime;
+			transform.position = newPosition;
+		}
 	}
 
 	private void attackUpdate()

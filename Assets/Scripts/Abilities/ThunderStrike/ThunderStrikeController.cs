@@ -74,8 +74,8 @@ public class ThunderStrikeController : MonoBehaviour
 
 			for (int j =0; j < nrOfHits; j++) {
 				Collider2D hit = hits[j];
-				if (hit.GetComponent<EntityController>() != null && hit.gameObject != this.owner) {
-					hit.GetComponent<EntityController>().takeDamage(this.damage);
+				if (hit.GetComponent<HealthPoints>() != null && hit.gameObject != this.owner) {
+					hit.GetComponent<HealthPoints>().takeDamage(this.damage);
 				}
 			}
 		}
