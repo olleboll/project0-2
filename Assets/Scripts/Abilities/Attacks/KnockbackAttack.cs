@@ -16,7 +16,7 @@ public class KnockbackAttack : IAttack
 	// 1. deal damage to entities
 	// 2. play sound
 
-	public void dealDamage(Vector3 target){
+	public void attack(Vector3 target){
 		if (this.hitbox != null) {
 			target = this.hitbox.transform.position;
 			this.radius = this.hitbox.GetComponent<Hitbox>().radius;
@@ -44,5 +44,7 @@ public class KnockbackAttack : IAttack
 		List<Collider2D> hits = new List<Collider2D>();
 		Physics2D.OverlapCircle(origin, this.radius, new ContactFilter2D(), hits);
 		return hits;
+	}
+	public void update(float deltaTime){
 	}
 }

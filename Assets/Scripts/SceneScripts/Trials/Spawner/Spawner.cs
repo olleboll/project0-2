@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
 		}
 	}
 	void Update(){
-		if (this.waves.Count == 0) {
+		if (this.waves.Count == 0 && this.currentWave.enemies.Count == 0 && !this.loadingNextWave) {
 			Debug.Log("Done!!");
 			return;
 		}

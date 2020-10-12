@@ -40,6 +40,11 @@ public class PlayerMovement : MonoBehaviour
 		this.moveDirection = this.input.moveDirection;
 		float currentSpeed = moveDirection.magnitude;
 
+		if (this.input.aimThrow) {
+			currentSpeed = 0f;
+			this.moveDirection = Vector3.zero;
+		}
+
 		Vector3 currentDirection;
 
 		if (currentSpeed > 0) {

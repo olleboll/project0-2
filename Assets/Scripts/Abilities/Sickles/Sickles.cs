@@ -16,8 +16,8 @@ public class Sickles : MonoBehaviour
 	private PlayerMovement playerMove;
 	private PlayerAnimationHandler playerAnimation;
 	private GameObject player;
-	private SickleAnimationHandler sickle1;
-	private SickleAnimationHandler sickle2;
+	private SickleAnimationHandler leftSickle;
+	private SickleAnimationHandler rightSickle;
 	private Vector3 positionOffset;
 	private Rigidbody2D body;
 	private static PlayerState.State _state = PlayerState.State.attacking;
@@ -38,6 +38,7 @@ public class Sickles : MonoBehaviour
 	private AttackType[] history;
 	private AttackType currentAttack = AttackType.idle;
 	private AttackType queuedAttack = AttackType.idle;
+
 	private MoveTowardsTarget moveTowardsTarget;
 
 	void Start()
@@ -48,28 +49,30 @@ public class Sickles : MonoBehaviour
 		this.input = Object.FindObjectOfType<PlayerInputController>();
 		this.playerMove = this.player.GetComponent<PlayerMovement>();
 		this.playerAnimation = this.player.GetComponent<PlayerAnimationHandler>();
-		this.sickle1 = transform.Find("Sickle1").gameObject.GetComponent<SickleAnimationHandler>();
-		this.sickle2 = transform.Find("Sickle2").gameObject.GetComponent<SickleAnimationHandler>();
-		this.sickle1.onDealDamage += this.onDealDamage;
-		this.sickle2.onDealDamage += this.onDealDamage;
+		this.leftSickle = transform.Find("Sickle1").gameObject.GetComponent<SickleAnimationHandler>();
+		this.rightSickle = transform.Find("Sickle2").gameObject.GetComponent<SickleAnimationHandler>();
+		this.leftSickle.onDealDamage += this.onDealDamage;
+		this.rightSickle.onDealDamage += this.onDealDamage;
+		this.leftSickle.onAnimationComplete += this.onAnimationComplete;
+		this.rightSickle.onAnimationComplete += this.onAnimationComplete;
 		this.positionOffset = transform.position - transform.parent.position;
 		this.history = new AttackType[3];
 	}
 
 	void OnEnable(){
-		this.sickle1 = transform.Find("Sickle1").gameObject.GetComponent<SickleAnimationHandler>();
-		this.sickle2 = transform.Find("Sickle2").gameObject.GetComponent<SickleAnimationHandler>();
+		this.leftSickle = transform.Find("Sickle1").gameObject.GetComponent<SickleAnimationHandler>();
+		this.rightSickle = transform.Find("Sickle2").gameObject.GetComponent<SickleAnimationHandler>();
 	}
 
 	void OnDisable(){
-		this.sickle1.onDealDamage -= this.onDealDamage;
-		this.sickle2.onDealDamage -= this.onDealDamage;
+		this.leftSickle.onDealDamage -= this.onDealDamage;
+		this.rightSickle.onDealDamage -= this.onDealDamage;
 	}
 
 	void Update()
 	{
-		bool nonePlaying = !this.sickle1.getIsPlaying() &&
-		                   !this.sickle2.getIsPlaying();
+		bool nonePlaying = !this.leftSickle.getIsPlaying() &&
+		                   !this.rightSickle.getIsPlaying();
 
 		if (this.playerState.state == Sickles._state) {
 			// Player is attacking..
@@ -93,42 +96,44 @@ public class Sickles : MonoBehaviour
 			}
 
 			if (nonePlaying && this.queuedAttack != AttackType.idle) {
-				this.startNormalAttack(this.queuedAttack);
+				this.startAttack(this.queuedAttack);
 			} else if (nonePlaying) {
 				this.currentAttack = AttackType.idle;
 				this.queuedAttack = AttackType.idle;
 				this.history = new AttackType[3];
 				this.playerState.resetState(Sickles._state);
 			}
+
 			return;
 		} else if (!nonePlaying) {
-			this.sickle1.stopAnimation();
-			this.sickle2.stopAnimation();
+			this.leftSickle.stopAnimation();
+			this.rightSickle.stopAnimation();
 		}
 
 		if ((this.input.attack1 || this.input.attack2)
 		    && this.playerState.setState(Sickles._state)) {
 			if (this.input.attack1) {
-				this.startNormalAttack(AttackType.left);
+				this.startAttack(AttackType.left);
+
 			} else if (this.input.attack2) {
-				this.startNormalAttack(AttackType.right);
+				this.startAttack(AttackType.right);
 			}
 			return;
 		}
 	}
 	void FixedUpdate(){
 		if (this.playerState.state == Sickles._state) {
-			if (!this.moveTowardsTarget.reachedTarget) {
+			if (this.moveTowardsTarget != null && !this.moveTowardsTarget.reachedTarget && !this.input.focusing) {
 				Vector3 newPosition = this.moveTowardsTarget.nextPosition(Time.fixedDeltaTime);
 				this.body.MovePosition(newPosition);
-			} else {
+			} else if (!this.input.focusing) {
 				this.playerMove.move();
-				this.playerAnimation.updateAnimation(this.input.swordDirection, 1);
+				this.playerAnimation.updateAnimation(this.input.moveDirection, 1);
 			}
 		}
 	}
 
-	private void startNormalAttack(AttackType attack) {
+	private void startAttack(AttackType attack) {
 		if (attack == AttackType.idle) {
 			return;
 		}
@@ -137,34 +142,36 @@ public class Sickles : MonoBehaviour
 		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 		transform.position = transform.parent.position + this.positionOffset + dir * 0.2f;
 		if (attack == AttackType.left) {
-			this.sickle1.play(SickleAnimationHandler.Anim.attack_normal);
+			this.leftSickle.play(SickleAnimationHandler.Anim.attack_normal, "sickle1");
 		}
 		if (attack == AttackType.right) {
-			this.sickle2.play(SickleAnimationHandler.Anim.attack_normal);
+			this.rightSickle.play(SickleAnimationHandler.Anim.attack_normal, "sickle2");
 		}
 		if (attack == AttackType.both) {
-			this.sickle1.play(SickleAnimationHandler.Anim.attack_normal);
-			this.sickle2.play(SickleAnimationHandler.Anim.attack_normal);
+			this.leftSickle.play(SickleAnimationHandler.Anim.attack_normal, "sickle1");
+			this.rightSickle.play(SickleAnimationHandler.Anim.attack_normal, "sickle2");
 		}
 		if (attack == AttackType.spin) {
 			PlayerAnimationHandler ani = this.player.GetComponent<PlayerAnimationHandler>();
 			ani.play(PlayerAnimationHandler.Anim.spin);
-			this.sickle1.play(SickleAnimationHandler.Anim.attack_spin);
+			this.leftSickle.play(SickleAnimationHandler.Anim.attack_spin, "sickle1");
 		}
+
 		this.currentAttack = attack;
 		this.queuedAttack = AttackType.idle;
+
 
 		AttackType[] newHistory = new AttackType[3];
 		newHistory[0] = attack;
 		newHistory[1] = this.history[0];
 		newHistory[2] = this.history[1];
 		this.history = newHistory;
-
 		this.attackDirection = dir;
 		this.moveTowardsTarget = new MoveTowardsTarget(this.body.position, this.attackDirection, this.thrustDistance, this.thrustSpeed);
 		if (this.soundEffect != null) {
 			Instantiate(this.soundEffect, transform.position, Quaternion.identity);
 		}
+
 	}
 
 	private IAttack getAttackType(AttackType attack){
@@ -180,6 +187,7 @@ public class Sickles : MonoBehaviour
 		if (attack == AttackType.spin) {
 			return this.spinAttack;
 		}
+
 		return null;
 	}
 
@@ -187,10 +195,15 @@ public class Sickles : MonoBehaviour
 		// Dealing damage
 		Debug.Log("Dealing damage with");
 		AttackType a = this.currentAttack;
+		Debug.Log(a);
 		IAttack attack = getAttackType(a);
-		// Implement damage dealing depening on attack
-		// 02/10-2020
+		if (attack != null) {
+			attack.attack(transform.position);
+		}
+	}
 
-		attack.dealDamage(transform.position);
+	private void onAnimationComplete(string id){
+		Debug.Log("ani complete");
+		Debug.Log(id);
 	}
 }

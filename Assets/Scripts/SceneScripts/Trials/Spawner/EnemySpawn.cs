@@ -19,7 +19,7 @@ public class EnemyWave
 				Random.Range(bounds.min.y, bounds.max.y),
 				0
 				);
-			enemies.Add(GameObject.Instantiate(enemy, Vector3.zero, Quaternion.identity));
+			enemies.Add(GameObject.Instantiate(enemy, pos, Quaternion.identity));
 		}
 	}
 }

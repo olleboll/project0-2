@@ -19,6 +19,8 @@ public class PlayerInputController : MonoBehaviour
 	public bool action;
 	public bool actionNow;
 	public bool rangedAttack;
+	public bool startFocus;
+	public bool focusing;
 
 	private GameObject player;
 
@@ -50,6 +52,8 @@ public class PlayerInputController : MonoBehaviour
 			this.action = gamepad.buttonEast.isPressed;
 			this.actionNow = gamepad.buttonEast.wasPressedThisFrame;
 			this.aimThrow = gamepad.leftTrigger.isPressed;
+			this.focusing = gamepad.leftTrigger.isPressed;
+			this.startFocus = gamepad.leftTrigger.wasPressedThisFrame;
 
 			if (this.aimThrow && this.attack) {
 				this.rangedAttack = true;

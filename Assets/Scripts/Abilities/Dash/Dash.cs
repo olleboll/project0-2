@@ -61,7 +61,7 @@ public class Dash : MonoBehaviour
 
 		this.body.MovePosition(newPosition);
 		if (this.dashGust != null) {
-			this.dashGust.transform.position = newPosition;
+			this.dashGust.transform.position = this.body.position;
 		}
 	}
 
@@ -94,5 +94,11 @@ public class Dash : MonoBehaviour
 	void OnDrawGizmosSelected()
 	{
 		Gizmos.DrawWireSphere(transform.position, this.distance);
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (this.isDashing) {
+			Debug.Log("Dashi collision");
+		}
 	}
 }

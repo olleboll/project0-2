@@ -6,5 +6,6 @@ public interface IAttack
 {
 
 	List<Collider2D> getCurrentHits(Vector3 target);
-	void dealDamage(Vector3 target);
+	void attack(Vector3 target);
+	void update(float deltaTime);
 }

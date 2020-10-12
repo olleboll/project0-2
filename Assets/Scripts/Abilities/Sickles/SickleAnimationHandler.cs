@@ -14,14 +14,19 @@ public class SickleAnimationHandler : MonoBehaviour
 	}
 	private bool isPlaying = false;
 	private Anim currentlyPlaying;
+	private string animationId;
 	void Start(){
 		this.anim = GetComponent<Animator>();
 	}
 
-	public void play(Anim ani){
+	public void play(Anim ani, string id){
+		if (this.currentlyPlaying != Anim.idle) {
+			return;
+		}
 		Debug.Log("Gonna play: " +ani);
 		this.currentlyPlaying = ani;
 		this.isPlaying = true;
+		this.animationId = id;
 		StartCoroutine(startAnimationNextFrame(ani));
 	}
 
@@ -30,10 +35,12 @@ public class SickleAnimationHandler : MonoBehaviour
 		this.anim.Play(ani.ToString());
 	}
 
+	public event Action<string> onAnimationComplete;
 	public void animationComplete(Anim ani){
 		this.isPlaying = false;
 		this.currentlyPlaying = Anim.idle;
 		this.anim.Play(Anim.idle.ToString());
+		onAnimationComplete(this.animationId);
 	}
 
 	public void stopAnimation(){
